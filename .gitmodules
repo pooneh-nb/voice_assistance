@@ -1,3 +1,4 @@
 [submodule "voice-assistants-openwpm"]
 	path = voice-assistants-openwpm
 	url = https://github.com/UmarIqbal/voice-assistants-openwpm.git
+	branch = bid-image-recording

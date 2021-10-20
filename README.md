@@ -8,7 +8,7 @@
 ```
 $ git clone https://github.com/UmarIqbal/voice-assistant-central.git
 ```
-4) Next, we go into `voice_assistant/avs-sdk-changes` and execute the `copy.sh` script to copy these files into their respective directories in the AVS SDK code structure. The first argument of the script is the path to the directory that contains the AVS SDK code (i.e., `avs-device-sdk`).
+4) Next, we go into `voice-assistant-central/avs-sdk-changes` and execute the `copy.sh` script to copy these files into their respective directories in the AVS SDK code structure. The first argument of the script is the path to the directory that contains the AVS SDK code (i.e., `avs-device-sdk`).
 ```
 $ cd voice-assistant-central/avs-sdk-changes
 voice-assistant-central/avs-sdk-changes $ sudo bash copy.sh /home/pi/

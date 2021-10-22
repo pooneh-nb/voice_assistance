@@ -2,7 +2,7 @@
 
 ## Modifying AVS SDK Code for Logging
 **NOTE:** The following steps have been tested with the AVS SDK being installed on a Raspberry Pi 4 as per [the instructions here](https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi-script.html).
-1) Follow the [steps to install the AVS SDK on a Raspberry Pi 4](https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi-script.html).
+1) Follow the [steps to install the AVS SDK on a Raspberry Pi 4](https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi.html).
 2) Right before [running the install.sh script](https://developer.amazon.com/en-US/docs/alexa/avs-device-sdk/raspberry-pi-script.html#run-the-install-script), we need to patch the AVS SDK code with the [code changes from this repository](https://github.uci.edu/NetworkingGroup/voice_assistant/tree/master/avs-sdk-changes).
 3) We have to download this repository into the path on the Raspberry Pi we have downloaded the AVS SDK code into. Normally, we will download the AVS SDK code to the `/home/pi` directory if we follow the instructions in step 2) above. Let's do the same for this repository.
 ```

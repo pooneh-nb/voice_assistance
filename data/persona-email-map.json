@@ -1,7 +1,37 @@
 {
-  "Health-Fitness": {
+    "BuildSkill": {
+        "email": "build-skill@protonmail.com",
+        "password": "change.me",
+        "profile": ""
+  },
+    
+  "Health-Fitness-old": {
     "email": "phillip-phillips-2@protonmail.com",
     "password": "change.me",
     "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/1ieo4m9x.health-fitness"
+  },
+    
+  "Amazon-plain": {
+    "email": "phillip-phillips-3@protonmail.com",
+    "password": "change.me",
+    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/6tlu5qgq.amazon-plain"
+  },
+    
+  "Amazon-Echo": {
+    "email": "phillip-phillips-4@protonmail.com",
+    "password": "change.me",
+    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/a7pu3wuk.amazon-echo"
+  },
+    
+  "Health-Fitness": {
+    "email": "phillip-phillips-5@protonmail.com",
+    "password": "change.me",
+    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/knf1dbef.health-fitness-new"
+  },
+    
+  "SmartHome": {
+    "email": "phillip-phillips-6@protonmail.com",
+    "password": "change.me",
+    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/dslzuepf.smart-home"
   }
 }

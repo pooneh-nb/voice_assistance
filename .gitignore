@@ -3,3 +3,10 @@
 __pycache__/
 env/
 geckodriver.log
+data/amazon-echo/*
+data/amazon-plain/*
+data/control_persona/*
+data/health-fitness-new/*
+data/healthfitness_persona/*
+data/no-amazon/*
+data/smart-home/*

@@ -15,6 +15,8 @@ var config = {
 
 
 function proxyRequest(request_data) {
+    console.log("proxyRequest");
+    console.log(request_data);
     return {
         type: "http",
         host: proxy_host, 
@@ -22,21 +24,23 @@ function proxyRequest(request_data) {
     };
 }
 
-chrome.proxy.settings.set({value: config, scope: "regular"}, function() {;});
+browser.proxy.settings.set({value: config, scope: "regular"}, function() {;});
 
 function callbackFn(details) {
+    console.log("callbackFn");
+    console.log(details);
 return {
     authCredentials: {
-        username: "lum-customer-c_cc92928e-zone-isp-154.17.72.0",
+        username: "lum-customer-c_cc92928e-zone-isp-ip-154.17.72.0",
         password: "y2w81jxpeu7y"
     }
 };
 }
 
-chrome.webRequest.onAuthRequired.addListener(
+browser.webRequest.onAuthRequired.addListener(
         callbackFn,
         {urls: ["<all_urls>"]},
         ['blocking']
 );
 
-chrome.proxy.onRequest.addListener(proxyRequest, {urls: ["<all_urls>"]});
+browser.proxy.onRequest.addListener(proxyRequest, {urls: ["<all_urls>"]});

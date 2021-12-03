@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra-plugin-adblocker": "^2.12.0",
+    "puppeteer-extra-plugin-block-resources": "^2.3.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}

@@ -18,6 +18,12 @@ async function gotoAmazonPage(page, url, rl) {
       continue;
     }
 
+    if (await page.evaluate(() => document.body.textContent.includes('Something went wrong on our end.'))) {
+      console.log("Something went wrong!!! Retrying...");
+      await page.waitForTimeout(2000);
+      continue;
+    }
+
     if (null === await page.$('#captchacharacters')) {
       break;
     } else {
@@ -48,11 +54,9 @@ async function gotoAmazonPage(page, url, rl) {
     d1.s = "date-desc-rank"
     leafDepartments.push({...d1});
 
-    if (d1.nPages >= 400) {
-      d1.name += " (R)";
-      d1.s = "date-asc-rank";
-      leafDepartments.push({...d1});
-    }
+    d1.name += " (R)";
+    d1.s = "date-asc-rank";
+    leafDepartments.push({...d1});
   }
 
   puppeteer.use(StealthPlugin());
@@ -68,13 +72,14 @@ async function gotoAmazonPage(page, url, rl) {
     const outDir = path.join("index", _.last(d.ids).replaceAll("/", ":") + " " + d.name);
     await fsPromises.mkdir(outDir, {recursive: true});
 
-    let lastPage = await fsPromises.readdir(outDir).then((l) => Math.max(0, ...l.map(x => parseInt(x) || 0)));
-
     const url = new URL("https://www.amazon.com/s?i=alexa-skills");
     url.searchParams.set("s", d.s);
     url.searchParams.set("rh", d.ids.join(",").replaceAll('/', ':'));
 
-    for (let i = lastPage + 1; i <= d.nPages; ++i) {
+    for (let i = 1; i <= d.nPages; ++i) {
+      let outPath = path.join(outDir, `${i}`.padStart(3, '0') + '.mhtml');
+      if (undefined === await fsPromises.access(outPath).catch(() => 0)) continue;
+
       console.log("%s [%d/%d]", d.name, i, d.nPages);
       url.searchParams.set("page", i);
       console.log(`Visiting ${url} ...`);

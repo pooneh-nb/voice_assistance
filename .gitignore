@@ -19,4 +19,5 @@ data/us_skills_all.json
 data/us_skills_raw.json
 numpy/
 data/amazon-plain.tar.gz
-data/old-data/
+data/old-data/*
+health-fitness-old.tar.gz

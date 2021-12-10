@@ -3,39 +3,95 @@
         "email": "build-skill@protonmail.com",
         "password": "change.me",
         "profile": ""
-  },
-  "InstallationProcedure": {
+    },
+    "InstallationProcedure": {
         "email": "installation-procedure@protonmail.com",
         "password": "change.me",
         "profile": ""
-  },    
-  "Health-Fitness-old": {
-    "email": "phillip-phillips-2@protonmail.com",
-    "password": "change.me",
-    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/1ieo4m9x.health-fitness"
-  },
-    
-  "Amazon-plain": {
-    "email": "phillip-phillips-3@protonmail.com",
-    "password": "change.me",
-    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/6tlu5qgq.amazon-plain"
-  },
-    
-  "Amazon-Echo": {
-    "email": "phillip-phillips-4@protonmail.com",
-    "password": "change.me",
-    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/a7pu3wuk.amazon-echo"
-  },
-    
-  "Health-Fitness": {
-    "email": "phillip-phillips-5@protonmail.com",
-    "password": "change.me",
-    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/knf1dbef.health-fitness-new"
-  },
-    
-  "SmartHome": {
-    "email": "phillip-phillips-6@protonmail.com",
-    "password": "change.me",
-    "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/dslzuepf.smart-home"
-  }
+    },
+    "Health-Fitness-old-0": {
+        "email": "phillip-phillips-2@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/1ieo4m9x.health-fitness"
+    },
+    "Amazon-plain-old-0": {
+        "email": "phillip-phillips-3@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/6tlu5qgq.amazon-plain"
+    },
+    "Amazon-Echo-old-0": {
+        "email": "phillip-phillips-4@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/a7pu3wuk.amazon-echo"
+    },
+    "Health-Fitness-old-1": {
+        "email": "phillip-phillips-5@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/knf1dbef.health-fitness-new"
+    },
+    "SmartHome-old": {
+        "email": "phillip-phillips-6@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/dslzuepf.smart-home"
+    },
+    "Religion-Spirituality": {
+        "email": "vida.naz@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/9wxwcl4o.Religion-Spirituality"
+    },
+    "SmartHome": {
+        "email": "hamid.nikbah@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/ct7ftpgy.SmartHome"
+    },
+    "Health-Fitness": {
+        "email": "amir.talar@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/hhfmj54w.Health-Fitness"
+    },
+    "Navigation-TripPlanners": {
+        "email": "elham.nik@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/egfo31f6.Navigation-TripPlanners"
+    },
+    "Pets-Animals": {
+        "email": "federicala@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/frm10bua.Pets-Animals"
+    },
+    "Wine-Beverages": {
+        "email": "pitrasbukhari@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/nkbsslys.Wine-Beverages"
+    },
+    "Fashion-Style": {
+        "email": "faizahmedfaiz@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/bc8ibpa7.Fashion-Style"
+    },
+    "ConnectedCar": {
+        "email": "yashar.nik@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/wisibfvv.Connected-Car"
+    },
+    "Dating": {
+        "email": "john.doe.alex@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/8rfdohrc.Dating"
+    },
+    "No-Skill": {
+        "email": "khusroamir@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/xvpg7hb6.No-Skill"
+    },
+    "Amazon-Only": {
+        "email": "ghalibmirza@protonmail.com",
+        "password": "change.me",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/1rn6fx8r.Amazon-Only"
+    },
+    "Plain": {
+        "email": "None",
+        "password": "None",
+        "profile": "/Users/umariqbal/Library/Application Support/Firefox/Profiles/8g15qnas.Plain"
+    }
 }

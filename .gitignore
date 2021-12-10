@@ -12,3 +12,11 @@ data/no-amazon/*
 data/smart-home/*
 tutorial-env/*
 data/results/*
+data/nightly-profiles/
+data/ungrouped_skills.json
+data/us_skills.json
+data/us_skills_all.json
+data/us_skills_raw.json
+numpy/
+data/amazon-plain.tar.gz
+data/old-data/

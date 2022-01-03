@@ -147,7 +147,14 @@ def isint(x):
     else:
         return a == b
 
+
 def get_files_in_a_directory(directory_path):
     file_list = [f for f in listdir(directory_path) if isfile(join(directory_path, f)) and not f.startswith('.')]
+    file_list_path = [os.path.join(directory_path, f) for f in file_list]
+    return file_list_path
+
+
+def get_directories_in_a_directory(directory_path):
+    file_list = [f for f in listdir(directory_path) if not isfile(join(directory_path, f)) and not f.startswith('.')]
     file_list_path = [os.path.join(directory_path, f) for f in file_list]
     return file_list_path

@@ -21,3 +21,5 @@ numpy/
 data/amazon-plain.tar.gz
 data/old-data/*
 health-fitness-old.tar.gz
+data/Amazon-Data/*
+

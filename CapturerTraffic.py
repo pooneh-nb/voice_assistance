@@ -12,7 +12,7 @@ from subprocess import Popen, PIPE
 import subprocess
 
 
-class AlexaNetworkTraffic:
+class CapturerTraffic:
     def __init__(self, firefox_exe_path, gecko_path, data_dir, persona, signin_page, email, pasw, profile, num_skills):
         # driver/extensions path
         self.FIREFOX_EXE_PATH = firefox_exe_path

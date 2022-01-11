@@ -104,10 +104,10 @@ class Moderator:
 
         return True
 
-    def tcpdump(self):
-        print("\ntcpdump running...\n")
-        p = subprocess.Popen("tcpdump -i wlo1 src 10.42.0.11 -vvv -w x.pcap", shell=True)
-        p.wait()
+    # def tcpdump(self):
+    #     print("\ntcpdump running...\n")
+    #     p = subprocess.Popen("tcpdump -i wlo1 src 10.42.0.11 -vvv -w x.pcap", shell=True)
+    #     p.wait()
     
     def main(self):
         driver = self.get_webdriver()
@@ -192,8 +192,8 @@ if __name__ == '__main__':
     profile = "/home/c2/.mozilla/firefox-trunk/qjr4taro.alexa"
     email = "alex.nik.echo@gmail.com"
     pasw = "change.me"
-    num_skills = 2
-    persona = 'Health-Wellness'
+    num_skills = 10
+    persona = 'Dating'
 
     moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw, num_skills, persona)
     moderator_obj.main()

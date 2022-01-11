@@ -9,6 +9,8 @@ import time
 
 from tqdm.notebook import tqdm
 import Recorder
+import pyglet
+from time import sleep
 
 
 class Skill_Interaction:
@@ -16,8 +18,8 @@ class Skill_Interaction:
         # persona
         self.PERSONA = persona
         self.SKILL = skill
-
-        # List of skills
+        #
+        # # List of skills
         self.DATA_DIR = data_dir
         SKILLS_ADDR = os.path.join(self.DATA_DIR, 'data/subgrouped_skills.json')
         self.all_skills = utilities.read_json(SKILLS_ADDR)[self.PERSONA]
@@ -43,7 +45,8 @@ class Skill_Interaction:
                 # recognize (convert from speech to text)
                 text = speech_to_text.recognize_google(audio_data, language="en")
                 text = text['alternative'][0]['transcript']
-        except:
+        except Exception as e:
+            print(e)
             pass
 
         if len(text) == 0:
@@ -86,7 +89,7 @@ class Skill_Interaction:
                 if any(x in command for x in ['*', '#', '(', ')', '[', ']', '{', '}', '<', '>']):
                     continue
 
-                if command.strip().count(' ') > 1 and command.replace('.', '').strip() not in skills_utterances[self.SKILL]:
+                if command.strip().count(' ') > 1 and command.replace('.', '').strip() not in skills_utterances:
                     skills_utterances.append(command.replace('.', '').strip())
 
                     # Only recording 5 occurrences at max from description.
@@ -104,7 +107,12 @@ class Skill_Interaction:
         for utterance in skills_utterances:
             utterance_wav = gTTS(text=utterance, lang='en', slow=False)
             utterance_wav.save(self.CURRENT_UTTERANCE + '.wav')
-            subprocess.call(['aplay', self.CURRENT_UTTERANCE + '.wav'])
+            file_name = self.CURRENT_UTTERANCE + '.wav'
+            music = pyglet.media.load(file_name, streaming=False)
+            music.play()
+            sleep(music.duration)
+            #os.remove(file_name)
+            ##subprocess.call(['aplay', self.CURRENT_UTTERANCE + '.wav'])
 
             last_responses = self.get_responses(self.LAST_RECORDING)
 
@@ -114,7 +122,11 @@ class Skill_Interaction:
             del record_response
 
             if force_stop:
-                subprocess.call(['aplay', self.ALEXA_STOP + '.wav'])
+                file_name = self.ALEXA_STOP + '.wav'
+                music = pyglet.media.load(file_name, streaming=False)
+                music.play()
+                sleep(music.duration)
+                #subprocess.call(['aplay', self.ALEXA_STOP + '.wav'])
                 print("Stop")
 
             else:
@@ -123,7 +135,11 @@ class Skill_Interaction:
                 print('CURRENT:', current_responses)
 
                 if any(x in current_responses for x in last_responses):
-                    subprocess.call(['aplay', self.ALEXA_STOP + '.wav'])
+                    file_name = self.ALEXA_STOP + '.wav'
+                    music = pyglet.media.load(file_name, streaming=False)
+                    music.play()
+                    sleep(music.duration)
+                    #subprocess.call(['aplay', self.ALEXA_STOP + '.wav'])
 
             #self.file_clean_up()
             time.sleep(2)

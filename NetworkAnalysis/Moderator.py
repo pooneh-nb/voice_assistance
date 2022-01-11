@@ -1,19 +1,21 @@
+import asyncio
+
+import NetworkAnalysis.Traffic_Capturer as Traffic
+import NetworkAnalysis.SkillHandler as Installer
+import NetworkAnalysis.Skill_Interactor as Interactor
+import NetworkAnalysis.utilities as utilities
+
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-import time
-import utilities
 import os
-import skill_interaction
-
-from subprocess import Popen, PIPE
-import subprocess
+import time
 
 
-class CapturerTraffic:
-    def __init__(self, firefox_exe_path, gecko_path, data_dir, persona, signin_page, email, pasw, profile, num_skills):
+class Moderator:
+    def __init__(self, firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw, num_skills, persona):
         # driver/extensions path
         self.FIREFOX_EXE_PATH = firefox_exe_path
         self.GECKO_PATH = gecko_path
@@ -23,13 +25,13 @@ class CapturerTraffic:
         # Persona name
         self.PERSONA = persona
 
-        # skill with no reviews  -- start page
-        self.SIGNIN_PAGE = signin_page
-
         # list of skills
         SKILLS_ADDR = os.path.join(self.DATA_DIR, 'data/subgrouped_skills.json')
         self.all_skills = utilities.read_json(SKILLS_ADDR)[self.PERSONA]
         self.no_skills_to_install = num_skills
+
+        # skill with no reviews  -- start page
+        self.SIGNIN_PAGE = signin_page
 
         # credentials
         self.Email = email
@@ -99,68 +101,12 @@ class CapturerTraffic:
             return False
 
         return True
-
-    def install_skill(self, driver, url, perm=False):
-        try:
-            driver.get(url)
-            time.sleep(3)
-
-            skill_enable_button = driver.find_element_by_id("a2s-skill-enable-button")
-            skill_enable_button.click()
-            time.sleep(3)
-
-            if perm:
-                try:
-                    permission_button = driver.find_element_by_xpath(
-                        "//input[@type='submit'][@class='a-button-input'][not(@aria-labelledby)]")
-                    permission_button.click()
-                    time.sleep(3)
-
-                except Exception:
-                    print('Something went wrong when enabling permissions')
-                    return False, 'perm'
-
-        except BaseException as ex:
-            print('Something went wrong when installing: ', str(ex))
-            return False, 'sim'
-
-        return True, 'sim'
-
-    def uninstall_skill(self, driver, url, perm=False):
-        try:
-            driver.get(url)
-            time.sleep(3)
-
-            skill_disable_button = driver.find_element_by_id("a2s-skill-disable-button")
-            skill_disable_button.click()
-            time.sleep(3)
-
-            pop_up = driver.find_element_by_id("a-popover-1")
-            pop_up_skill_disable_button = pop_up.find_element_by_xpath("//span[contains(@data-a2s_skill_action, 'disable')]")
-            pop_up_skill_disable_button.click()
-            time.sleep()
-            """if perm:
-                try:
-                    permission_button = driver.find_element_by_xpath(
-                        "//input[@type='submit'][@class='a-button-input'][not(@aria-labelledby)]")
-                    permission_button.click()
-                    time.sleep(3)
-
-                except Exception:
-                    print('Something went wrong when enabling permissions')
-                    return False, 'perm'"""
-
-        except BaseException as ex:
-            print('Something went wrong in Uninstall: ', str(ex))
-            return False, 'sim'
-
-        return True, 'sim'
-
-    def train_persona(self):
-
+    
+    def main(self):
         driver = self.get_webdriver()
         print('WebDriver registered')
 
+        # SIGNING IN
         signin_status = self.signin(driver)
 
         total_installed = 0
@@ -179,20 +125,19 @@ class CapturerTraffic:
                     skill_perm = False
 
                 # %%% START TCPDUMP
-                print("START TCPDUMP")
-                sudo_password = '1234'
-                file_id = skill+'.pcap'
-                command = 'tcpdump -i wlo1 src 10.42.0.11 -w '+file_id
-                command = command.split()
-                p = Popen(['sudo', '-S'] + command, stdin=PIPE, stderr=PIPE, universal_newlines=True)
-                sudo_prompt = p.communicate(sudo_password + '\n')[1]
+                traffic = Traffic.TrafficCapturer(skill)
+                try:
+                    eventloop = asyncio.get_event_loop()
+                    eventloop.run_until_complete(traffic.dispatch_capture())
+                except KeyboardInterrupt as e:
+                    print("-- Exiting due to keyboard interrupt --")
 
 
                 # %%% INSTALL
-                print("INSTALL")
-                install_status = self.install_skill(driver, skill_url, skill_perm)
+                installer = Installer.Skill_Handler(driver, skill_url, skill_perm)
+                install_status = installer.install_skill()
 
-                # Log succesfully and partially installed skills
+                # Log successfully and partially installed skills
                 if install_status[0]:
                     total_installed += 1
 
@@ -200,13 +145,11 @@ class CapturerTraffic:
                     break
 
                 # %%% INTERACT
-                interaction = skill_interaction.SkillInteraction(self.DATA_DIR, self.PERSONA)
-                skills_utterances = interaction.get_utterances(skill)
-                interaction.play_utterances(skills_utterances)
+                interaction = Interactor.Skill_Interaction(self.DATA_DIR, self.PERSONA, skill)
+                interaction.skill_interactor()
 
                 # %%% UNINSTALL
-                print("Uninstall")
-                uninstall_status = self.uninstall_skill(driver, skill_url, skill_perm)
+                uninstall_status = installer.uninstall_skill()
 
                 # Log successfully and partially uninstalled skills
                 if uninstall_status[0]:
@@ -215,7 +158,8 @@ class CapturerTraffic:
                 if total_uninstalled >= self.no_skills_to_install:
                     break
                 # %%% STOP TCPDUMP
-                p.send_signal(subprocess.signal.SIGTERM)
+
+                #traffic.kill_process()
 
         else:
             print('Could not sign in. Stopping the process')
@@ -226,16 +170,21 @@ class CapturerTraffic:
         print('Installed %f skills.', (total_installed / self.no_skills_to_install) * 100.0)
 
 
-firefox_exe_path = '/usr/bin/firefox-trunk'
-gecko_path = '/home/c2/alexa/source/voice-assistant-central/geckodriver'
-data_dir = '/home/c2/alexa/source/voice-assistant-central/'
-persona = 'Dating'
-signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-email = "alex.nik.echo@gmail.com"
-pasw = "change.me"
-profile = "/home/c2/.mozilla/firefox-trunk/qjr4taro.alexa"
-num_skills = 2
+if __name__ == '__main__':
 
-Alex = AlexaNetworkTraffic(firefox_exe_path, gecko_path, data_dir, persona, signin_page, email, pasw, profile, num_skills)
-Alex.train_persona()
+    # initialization
+    firefox_exe_path = '/usr/bin/firefox-trunk'
+    gecko_path = '/home/c2/alexa/source/voice-assistant-central/geckodriver'
+    data_dir = '/home/c2/alexa/source/voice-assistant-central/'
+
+    signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
+    profile = "/home/c2/.mozilla/firefox-trunk/qjr4taro.alexa"
+    email = "alex.nik.echo@gmail.com"
+    pasw = "change.me"
+    num_skills = 2
+    persona = 'Dating'
+
+    moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw, num_skills, persona)
+    moderator_obj.main()
+
 

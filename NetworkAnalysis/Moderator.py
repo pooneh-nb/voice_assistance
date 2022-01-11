@@ -1,4 +1,6 @@
 import asyncio
+import subprocess
+import threading
 
 import NetworkAnalysis.Traffic_Capturer as Traffic
 import NetworkAnalysis.SkillHandler as Installer
@@ -101,6 +103,11 @@ class Moderator:
             return False
 
         return True
+
+    def tcpdump(self):
+        print("\ntcpdump running...\n")
+        p = subprocess.Popen("tcpdump -i wlo1 src 10.42.0.11 -vvv -w x.pcap", shell=True)
+        p.wait()
     
     def main(self):
         driver = self.get_webdriver()
@@ -126,11 +133,14 @@ class Moderator:
 
                 # %%% START TCPDUMP
                 traffic = Traffic.TrafficCapturer(skill)
-                try:
-                    eventloop = asyncio.get_event_loop()
-                    eventloop.run_until_complete(traffic.dispatch_capture())
-                except KeyboardInterrupt as e:
-                    print("-- Exiting due to keyboard interrupt --")
+                t = threading.Thread(target=traffic.capture_process(), daemon=True)
+                t.start()
+                # traffic = Traffic.TrafficCapturer(skill)
+                # try:
+                #     eventloop = asyncio.get_event_loop()
+                #     eventloop.run_until_complete(traffic.dispatch_capture())
+                # except KeyboardInterrupt as e:
+                #     print("-- Exiting due to keyboard interrupt --")
 
 
                 # %%% INSTALL
@@ -158,7 +168,8 @@ class Moderator:
                 if total_uninstalled >= self.no_skills_to_install:
                     break
                 # %%% STOP TCPDUMP
-
+                print("tcpdump is terminated \n")
+                t.join(1)
                 #traffic.kill_process()
 
         else:
@@ -182,7 +193,7 @@ if __name__ == '__main__':
     email = "alex.nik.echo@gmail.com"
     pasw = "change.me"
     num_skills = 2
-    persona = 'Dating'
+    persona = 'Health-Wellness'
 
     moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw, num_skills, persona)
     moderator_obj.main()

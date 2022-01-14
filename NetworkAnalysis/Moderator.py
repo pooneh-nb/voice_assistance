@@ -135,12 +135,7 @@ class Moderator:
                 traffic = Traffic.TrafficCapturer(skill)
                 t = threading.Thread(target=traffic.capture_process(), daemon=True)
                 t.start()
-                # traffic = Traffic.TrafficCapturer(skill)
-                # try:
-                #     eventloop = asyncio.get_event_loop()
-                #     eventloop.run_until_complete(traffic.dispatch_capture())
-                # except KeyboardInterrupt as e:
-                #     print("-- Exiting due to keyboard interrupt --")
+
 
 
                 # %%% INSTALL
@@ -165,11 +160,16 @@ class Moderator:
                 if uninstall_status[0]:
                     total_uninstalled += 1
 
-                if total_uninstalled >= self.no_skills_to_install:
-                    break
+
                 # %%% STOP TCPDUMP
                 print("tcpdump is terminated \n")
-                t.join(1)
+                t.join(timeout=1)
+                traffic.terminate_process()
+                if total_uninstalled >= self.no_skills_to_install:
+                    print(total_installed)
+                    break
+                #print("Alive????????", t.is_alive())
+
                 #traffic.kill_process()
 
         else:
@@ -189,10 +189,10 @@ if __name__ == '__main__':
     data_dir = '/home/c2/alexa/source/voice-assistant-central/'
 
     signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-    profile = "/home/c2/.mozilla/firefox-trunk/qjr4taro.alexa"
+    profile = "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
     email = "alex.nik.echo@gmail.com"
     pasw = "change.me"
-    num_skills = 10
+    num_skills = 50
     persona = 'Dating'
 
     moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw, num_skills, persona)

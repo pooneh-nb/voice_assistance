@@ -48,7 +48,7 @@ class Skill_Handler:
             pop_up_skill_disable_button = pop_up.find_element_by_xpath(
                 "//span[contains(@data-a2s_skill_action, 'disable')]")
             pop_up_skill_disable_button.click()
-            time.sleep(0)
+            time.sleep(3)
             """if perm:
                 try:
                     permission_button = driver.find_element_by_xpath(

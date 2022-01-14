@@ -8,8 +8,10 @@ import re
 import time
 
 from tqdm.notebook import tqdm
-import Recorder
+from NetworkAnalysis import Recorder
 import pyglet
+from playsound import playsound
+import pygame
 from time import sleep
 
 
@@ -99,6 +101,17 @@ class Skill_Interaction:
 
         return skills_utterances
 
+    def stop_alexa(self):
+
+        utterance_wav = gTTS(text='Alexa, stop', lang='en', slow=False)
+        utterance_wav.save(self.ALEXA_STOP + '.wav')
+
+        utterance_wav = gTTS(text='None', lang='en', slow=False)
+        utterance_wav.save(self.LAST_RECORDING + '-1.wav')
+        utterance_wav.save(self.LAST_RECORDING + '-2.wav')
+        utterance_wav.save(self.CURRENT_RECORDING + '-1.wav')
+        utterance_wav.save(self.CURRENT_RECORDING + '-2.wav')
+
     def play_utterances(self, skills_utterances):
         total_utterances = 0
         for utterance in skills_utterances:
@@ -108,9 +121,10 @@ class Skill_Interaction:
             utterance_wav = gTTS(text=utterance, lang='en', slow=False)
             utterance_wav.save(self.CURRENT_UTTERANCE + '.wav')
             file_name = self.CURRENT_UTTERANCE + '.wav'
-            music = pyglet.media.load(file_name, streaming=False)
-            music.play()
-            sleep(music.duration)
+            playsound(file_name)
+            #music = pyglet.media.StaticSource(file_name)
+            #music.play()
+            #sleep(music.duration)
             #os.remove(file_name)
             ##subprocess.call(['aplay', self.CURRENT_UTTERANCE + '.wav'])
 
@@ -123,9 +137,10 @@ class Skill_Interaction:
 
             if force_stop:
                 file_name = self.ALEXA_STOP + '.wav'
-                music = pyglet.media.load(file_name, streaming=False)
-                music.play()
-                sleep(music.duration)
+                playsound(file_name)
+                #music = pyglet.media.load(file_name, streaming=False)
+                #music.play()
+                #sleep(music.duration)
                 #subprocess.call(['aplay', self.ALEXA_STOP + '.wav'])
                 print("Stop")
 
@@ -136,9 +151,10 @@ class Skill_Interaction:
 
                 if any(x in current_responses for x in last_responses):
                     file_name = self.ALEXA_STOP + '.wav'
-                    music = pyglet.media.load(file_name, streaming=False)
-                    music.play()
-                    sleep(music.duration)
+                    playsound(file_name)
+                    #music = pyglet.media.load(file_name, streaming=False)
+                    #music.play()
+                    #sleep(music.duration)
                     #subprocess.call(['aplay', self.ALEXA_STOP + '.wav'])
 
             #self.file_clean_up()
@@ -147,6 +163,7 @@ class Skill_Interaction:
     def skill_interactor(self):
         print("INTERACTING")
         skills_utterances = self.get_utterances()
+        self.stop_alexa()
         self.play_utterances(skills_utterances)
 
 

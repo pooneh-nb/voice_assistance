@@ -7,13 +7,24 @@ import subprocess
 class TrafficCapturer:
     def __init__(self, skill):
         self.SKILL = skill
-        file_id = self.SKILL + '.pcap'
-        command = f"tcpdump -i wlo1 src 10.42.0.11 -vvv -w {file_id}"
+        file_id = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Dating/" +self.SKILL + '.pcap'
+        command = f"tcpdump -i wlo1 -vvv -w {file_id}"
         self.COMMAND = command
+        self._running = True
+        self.pid = 0
 
     def capture_process(self):
         print("\ntcpdump running...\n")
         p = subprocess.Popen(self.COMMAND, shell=True)
+        self.pid = p.pid
+        #print("PID: >>>>>>>>>>", self.pid)
+
+    def terminate_process(self):
+        #print("Kill process +++", self.pid)
+        command = f"pkill -f tcpdump"
+        subprocess.Popen(command, shell=True)
+
+
         #p.wait()
 
     # def initialize(self):

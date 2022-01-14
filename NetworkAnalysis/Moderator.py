@@ -132,7 +132,7 @@ class Moderator:
                     skill_perm = False
 
                 # %%% START TCPDUMP
-                traffic = Traffic.TrafficCapturer(skill)
+                traffic = Traffic.TrafficCapturer(skill, self.PERSONA)
                 t = threading.Thread(target=traffic.capture_process(), daemon=True)
                 t.start()
 
@@ -168,9 +168,7 @@ class Moderator:
                 if total_uninstalled >= self.no_skills_to_install:
                     print(total_installed)
                     break
-                #print("Alive????????", t.is_alive())
 
-                #traffic.kill_process()
 
         else:
             print('Could not sign in. Stopping the process')
@@ -182,20 +180,30 @@ class Moderator:
 
 
 if __name__ == '__main__':
+    selected_categories_dir = "/home/c2/alexa/source/voice-assistant-central/data/selected_categories.json"
+    selected_categories = utilities.read_json(selected_categories_dir)
+    for persona in selected_categories:
+        traffic_capture_dir =  "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic/" + persona
+        if os.path.exists(traffic_capture_dir):
+            continue
+        else:
+            os.makedirs(traffic_capture_dir)
+            # initialization
+            firefox_exe_path = '/usr/bin/firefox-trunk'
+            gecko_path = '/home/c2/alexa/source/voice-assistant-central/geckodriver'
+            data_dir = '/home/c2/alexa/source/voice-assistant-central/'
 
-    # initialization
-    firefox_exe_path = '/usr/bin/firefox-trunk'
-    gecko_path = '/home/c2/alexa/source/voice-assistant-central/geckodriver'
-    data_dir = '/home/c2/alexa/source/voice-assistant-central/'
+            signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
+            profile = "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
+            email = "alex.nik.echo@gmail.com"
+            pasw = "change.me"
+            num_skills = 50
+            #persona = 'Navigation-TripPlanners'
 
-    signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-    profile = "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
-    email = "alex.nik.echo@gmail.com"
-    pasw = "change.me"
-    num_skills = 50
-    persona = 'Dating'
+            moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw,
+                                      num_skills, persona)
+            moderator_obj.main()
 
-    moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw, num_skills, persona)
-    moderator_obj.main()
+
 
 

@@ -195,7 +195,7 @@ if __name__ == '__main__':
         if os.path.exists(output_traffic_dir):
             continue
         else:
-            os.makedirs(traffic_capture_dir)
+            os.makedirs(output_traffic_dir)
             # initialization
             firefox_exe_path = '/usr/bin/firefox-trunk'
             gecko_path = '/geckodriver'

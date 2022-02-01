@@ -6,7 +6,7 @@ import os
 import re
 import time
 
-from NetworkAnalysis.Traffic_capturing import Recorder
+import Recorder
 from playsound import playsound
 
 

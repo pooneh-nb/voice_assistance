@@ -1,14 +1,20 @@
 import threading
 
-import NetworkAnalysis.Traffic_capturing.Traffic_Capturer as Traffic
-import NetworkAnalysis.Traffic_capturing.SkillHandler as Installer
-import NetworkAnalysis.Traffic_capturing.Skill_Interactor as Interactor
-import NetworkAnalysis.utilities as utilities
+import Traffic_Capturer as Traffic
+import SkillHandler as Installer
+import Skill_Interactor as Interacor
+import utilities as utilities
+
+# import NetworkAnalysis.Traffic_capturing.Traffic_Capturer as Traffic
+# import NetworkAnalysis.Traffic_capturing.SkillHandler as Installer
+# import NetworkAnalysis.Traffic_capturing.Skill_Interactor as Interactor
+# import NetworkAnalysis.Traffic_capturing.utilities as utilities
 
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
 
 import os
 import time
@@ -106,7 +112,7 @@ class Moderator:
             return False
 
         return True
-    
+
     def main(self):
         driver = self.get_webdriver()
         print('WebDriver registered')
@@ -175,15 +181,15 @@ class Moderator:
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(description="capture network traffic of Alexa device goes through the router")
-    ap.add_argument('--categories', required=True,
+    ap.add_argument('--categories', required=True, type=str,
                     help='address of categories')
-    ap.add_argument('--traffic_output', required=True,
+    ap.add_argument('--traffic_output', required=True,type=str,
                     help='address of output pcap files')
-    ap.add_argument('--profile', required=True,
+    ap.add_argument('--profile', required=True, type=str,
                     help='fresh profile of mozilla')
-    ap.add_argument('--email', required=True,
+    ap.add_argument('--email', required=True, type=str,
                     help='email of alexa device')
-    ap.add_argument('--pass', required=True,
+    ap.add_argument('--pass', required=True, type=str,
                     help='password of email')
 
     args = ap.parse_args()
@@ -191,7 +197,7 @@ if __name__ == '__main__':
     selected_categories_dir = args.categories  # "/data/selected_categories.json"
     selected_categories = utilities.read_json(selected_categories_dir)
     for persona in selected_categories:
-        output_traffic_dir = args.traffic_output + persona  #"/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic/"
+        output_traffic_dir = args.traffic_output + persona  # "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic/"
         if os.path.exists(output_traffic_dir):
             continue
         else:
@@ -202,14 +208,10 @@ if __name__ == '__main__':
             data_dir = '//'
 
             signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-            profile = args.profile #"/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
+            profile = args.profile  # "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
             email = "alex.nik.echo@gmail.com"
             pasw = "change.me"
             num_skills = 50
             moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw,
                                       num_skills, persona, output_traffic_dir)
             moderator_obj.main()
-
-
-
-

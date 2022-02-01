@@ -8,8 +8,7 @@ Connect the Echo device to the hotspot of the machine running the code
 Calling Moderator.py will run the following steps:
 
 ```
-$ Moderator.py --categories = "<address to selected_categories.json>" --traffic_output = "<output directory of pcap files>"
-$ --profile = "<address to Mozilla profile>" --email="<email>" --pass="<pass>"
+$ Moderator.py --categories = "<address to selected_categories.json>" --traffic_output = "<output directory of pcap files>" --profile = "<address to Mozilla profile>" --email="<email>" --pass="<pass>"
 ```
 
 1) Enable tcpdump 

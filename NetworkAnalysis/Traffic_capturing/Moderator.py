@@ -12,10 +12,12 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 import os
 import time
+import argparse
 
 
 class Moderator:
-    def __init__(self, firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw, num_skills, persona):
+    def __init__(self, firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw, num_skills, persona,
+                 output_traffic_dir):
         # driver/extensions path
         self.FIREFOX_EXE_PATH = firefox_exe_path
         self.GECKO_PATH = gecko_path
@@ -37,6 +39,9 @@ class Moderator:
         self.Email = email
         self.Password = pasw
         self.Profile = profile
+
+        # output directory
+        self.output_traffic_dir = output_traffic_dir
 
     def get_webdriver(self):
         options = FirefoxOptions()
@@ -101,11 +106,6 @@ class Moderator:
             return False
 
         return True
-
-    # def tcpdump(self):
-    #     print("\ntcpdump running...\n")
-    #     p = subprocess.Popen("tcpdump -i wlo1 src 10.42.0.11 -vvv -w x.pcap", shell=True)
-    #     p.wait()
     
     def main(self):
         driver = self.get_webdriver()
@@ -130,11 +130,9 @@ class Moderator:
                     skill_perm = False
 
                 # %%% START TCPDUMP
-                traffic = Traffic.TrafficCapturer(skill, self.PERSONA)
+                traffic = Traffic.TrafficCapturer(skill, self.PERSONA, self.output_traffic_dir)
                 t = threading.Thread(target=traffic.capture_process(), daemon=True)
                 t.start()
-
-
 
                 # %%% INSTALL
                 installer = Installer.Skill_Handler(driver, skill_url, skill_perm)
@@ -158,7 +156,6 @@ class Moderator:
                 if uninstall_status[0]:
                     total_uninstalled += 1
 
-
                 # %%% STOP TCPDUMP
                 print("tcpdump is terminated \n")
                 t.join(timeout=1)
@@ -166,7 +163,6 @@ class Moderator:
                 if total_uninstalled >= self.no_skills_to_install:
                     print(total_installed)
                     break
-
 
         else:
             print('Could not sign in. Stopping the process')
@@ -178,11 +174,25 @@ class Moderator:
 
 
 if __name__ == '__main__':
-    selected_categories_dir = "/data/selected_categories.json"
+    ap = argparse.ArgumentParser(description="capture network traffic of Alexa device goes through the router")
+    ap.add_argument('--categories', required=True,
+                    help='address of categories')
+    ap.add_argument('--traffic_output', required=True,
+                    help='address of output pcap files')
+    ap.add_argument('--profile', required=True,
+                    help='fresh profile of mozilla')
+    ap.add_argument('--email', required=True,
+                    help='email of alexa device')
+    ap.add_argument('--pass', required=True,
+                    help='password of email')
+
+    args = ap.parse_args()
+
+    selected_categories_dir = args.categories  # "/data/selected_categories.json"
     selected_categories = utilities.read_json(selected_categories_dir)
     for persona in selected_categories:
-        traffic_capture_dir =  "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic/" + persona
-        if os.path.exists(traffic_capture_dir):
+        output_traffic_dir = args.traffic_output + persona  #"/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic/"
+        if os.path.exists(output_traffic_dir):
             continue
         else:
             os.makedirs(traffic_capture_dir)
@@ -192,14 +202,12 @@ if __name__ == '__main__':
             data_dir = '//'
 
             signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-            profile = "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
+            profile = args.profile #"/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
             email = "alex.nik.echo@gmail.com"
             pasw = "change.me"
             num_skills = 50
-            #persona = 'Navigation-TripPlanners'
-
             moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw,
-                                      num_skills, persona)
+                                      num_skills, persona, output_traffic_dir)
             moderator_obj.main()
 
 

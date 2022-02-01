@@ -1,7 +1,7 @@
 # Traffic Capturing
 ### Network Traffic of Alexa Echo Device 4th generation
 
-####Configuration: 
+#### Configuration: 
 Connect the Echo device to the hotspot of the machine running the code
 
 #### Experimental setup: 

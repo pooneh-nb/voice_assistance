@@ -1,18 +1,13 @@
 from gtts import gTTS
 import speech_recognition as sr
 
-import subprocess
 import utilities
 import os
 import re
 import time
 
-from tqdm.notebook import tqdm
-from NetworkAnalysis import Recorder
-import pyglet
+from NetworkAnalysis.Traffic_capturing import Recorder
 from playsound import playsound
-import pygame
-from time import sleep
 
 
 class Skill_Interaction:

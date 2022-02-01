@@ -1,10 +1,8 @@
-import asyncio
-import subprocess
 import threading
 
-import NetworkAnalysis.Traffic_Capturer as Traffic
-import NetworkAnalysis.SkillHandler as Installer
-import NetworkAnalysis.Skill_Interactor as Interactor
+import NetworkAnalysis.Traffic_capturing.Traffic_Capturer as Traffic
+import NetworkAnalysis.Traffic_capturing.SkillHandler as Installer
+import NetworkAnalysis.Traffic_capturing.Skill_Interactor as Interactor
 import NetworkAnalysis.utilities as utilities
 
 from selenium import webdriver
@@ -180,7 +178,7 @@ class Moderator:
 
 
 if __name__ == '__main__':
-    selected_categories_dir = "/home/c2/alexa/source/voice-assistant-central/data/selected_categories.json"
+    selected_categories_dir = "/data/selected_categories.json"
     selected_categories = utilities.read_json(selected_categories_dir)
     for persona in selected_categories:
         traffic_capture_dir =  "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic/" + persona
@@ -190,8 +188,8 @@ if __name__ == '__main__':
             os.makedirs(traffic_capture_dir)
             # initialization
             firefox_exe_path = '/usr/bin/firefox-trunk'
-            gecko_path = '/home/c2/alexa/source/voice-assistant-central/geckodriver'
-            data_dir = '/home/c2/alexa/source/voice-assistant-central/'
+            gecko_path = '/geckodriver'
+            data_dir = '//'
 
             signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
             profile = "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"

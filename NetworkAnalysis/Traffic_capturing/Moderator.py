@@ -1,8 +1,10 @@
+import pdb
+import os
 import threading
 
-import Traffic_Capturer as Traffic
-import SkillHandler as Installer
-import Skill_Interactor as Interacor
+from NetworkAnalysis.Traffic_capturing import Traffic_Capturer as Traffic
+from NetworkAnalysis.Traffic_capturing import SkillHandler as Installer
+from NetworkAnalysis.Traffic_capturing import Skill_Interactor as Interactor
 import utilities as utilities
 
 # import NetworkAnalysis.Traffic_capturing.Traffic_Capturer as Traffic
@@ -28,13 +30,13 @@ class Moderator:
         self.FIREFOX_EXE_PATH = firefox_exe_path
         self.GECKO_PATH = gecko_path
         self.DATA_DIR = data_dir
-        self.EXTENSION_PATH = os.path.join(self.DATA_DIR, 'browser-extension.zip')
+        self.EXTENSION_PATH = os.path.join(self.DATA_DIR, 'tools/browser-extension.zip')
 
         # Persona name
         self.PERSONA = persona
 
         # list of skills
-        SKILLS_ADDR = os.path.join(self.DATA_DIR, 'data/subgrouped_skills.json')
+        SKILLS_ADDR = os.path.join(self.DATA_DIR, 'skills_data/subgrouped_skills.json')
         self.all_skills = utilities.read_json(SKILLS_ADDR)[self.PERSONA]
         self.no_skills_to_install = num_skills
 
@@ -180,38 +182,39 @@ class Moderator:
 
 
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(description="capture network traffic of Alexa device goes through the router")
-    ap.add_argument('--categories', required=True, type=str,
-                    help='address of categories')
-    ap.add_argument('--traffic_output', required=True,type=str,
-                    help='address of output pcap files')
-    ap.add_argument('--profile', required=True, type=str,
-                    help='fresh profile of mozilla')
-    ap.add_argument('--email', required=True, type=str,
-                    help='email of alexa device')
-    ap.add_argument('--pass', required=True, type=str,
-                    help='password of email')
+    # ap = argparse.ArgumentParser(description="capture network traffic of Alexa device goes through the router")
+    # ap.add_argument('--categories', required=True, type=str,
+    #                 help='address of categories')
+    # ap.add_argument('--traffic_output', required=True,type=str,
+    #                 help='address of output pcap files')
+    # ap.add_argument('--data_dir', required=True, type=str,
+    #                 help='Data Directory')
+    # ap.add_argument('--profile', required=True, type=str,
+    #                 help='fresh profile of mozilla')
+    # ap.add_argument('--email', required=True, type=str,
+    #                 help='email of alexa device')
+    # ap.add_argument('--pass', required=True, type=str,
+    #                 help='password of email')
 
-    args = ap.parse_args()
+    # args = ap.parse_args()
 
-    selected_categories_dir = args.categories  # "/data/selected_categories.json"
+    #pdb.set_trace()
+    data_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data"
+    selected_categories_dir = os.path.join(data_dir, "skills_data/selected_categories.json")
     selected_categories = utilities.read_json(selected_categories_dir)
     for persona in selected_categories:
-        output_traffic_dir = args.traffic_output + persona  # "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic/"
-        if os.path.exists(output_traffic_dir):
-            continue
-        else:
+        output_traffic_dir = os.path.join(data_dir, "Traffic2", persona)
+        if not os.path.exists(output_traffic_dir):
             os.makedirs(output_traffic_dir)
-            # initialization
-            firefox_exe_path = '/usr/bin/firefox-trunk'
-            gecko_path = '/geckodriver'
-            data_dir = '//'
 
-            signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-            profile = args.profile  # "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
-            email = "alex.nik.echo@gmail.com"
-            pasw = "change.me"
-            num_skills = 50
-            moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw,
-                                      num_skills, persona, output_traffic_dir)
-            moderator_obj.main()
+        # initialization
+        firefox_exe_path = '/usr/bin/firefox-trunk'
+        gecko_path = os.path.join(data_dir, 'tools/geckodriver')
+        signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
+        profile = "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
+        email = "alex.nik.echo@gmail.com"
+        pasw = "change.me"
+        num_skills = 50
+        moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw,
+                                  num_skills, persona, output_traffic_dir)
+        moderator_obj.main()

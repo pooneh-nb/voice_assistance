@@ -4173,3 +4173,269 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 [2022-01-15T08:06:19Z ERROR xulstore::persist] removeDocument error: unavailable
+1643784388584	geckodriver	INFO	Listening on 127.0.0.1:47267
+1643784388590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643784389047	Marionette	INFO	Marionette enabled
+1643784389604	Marionette	INFO	Listening on port 2828
+1643784389714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643784560395	geckodriver	INFO	Listening on 127.0.0.1:57333
+1643784560404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+1643784560406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a1=0101c1cf83985626c1f22ab58c7a14de135767d7265c521ce3d09ffdacc65c01a250&a2=0101f4dd6b49898d5577d4df6e09f0d3dc26aed10510e9417a196f27782503100f7a&old_oo=0&ts=1643784398037&s=ARFfnsrgKiVaPz9eq6IgwVoNiXRab_jIx8JtyeJTVw28&gdpr_consent=&gdpr_consent_avl=&cb=1643784398037, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/v3/pr?exlist=af_sx_n-sk_n-ix-HMT_bsw_index_n-semasio-ecm_aold_n-zeotap-4_nsln_n-lucid_twca_n-verizon_pm_adelphic_adb&fv=1.0&ex-pl-twca=tSGfBC9iSa64wCtdHpIs2Q&a=cm&ep=ulh7xzA0QxLfk9rQOD277RgN_QLiN8UBqH5_wp67b9v7b4Eo6XpzAdKANQsCfssPd9ulG2ClkZWQIdBzjQhBdr6SvvWjLZc4ja71m3eBYepwq6i5kZYuyaicn5hSRnvh, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Britton-2k-Say-a-Prayer/dp/B07K5D4WXX/ref=sr_1_3525?dchild=1&qid=1602793857&s=alexa-skills&sr=1-3525, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643784695540	geckodriver	INFO	Listening on 127.0.0.1:40335
+1643784695550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+1643784695557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a1=0101c1cf83985626c1f22ab58c7a14de135767d7265c521ce3d09ffdacc65c01a250&a2=0101f4dd6b49898d5577d4df6e09f0d3dc26aed10510e9417a196f27782503100f7a&old_oo=0&ts=1643784569022&s=AXeqwyOWKKtcuHNYnQrRITsh45Y2ycdoEcB_j3Eu6tn6&gdpr_consent=&gdpr_consent_avl=&cb=1643784569022, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/v3/pr?exlist=af_sx_n-sk_n-ix-HMT_bsw_index_n-semasio-ecm_aold_n-zeotap-4_nsln_n-lucid_twca_n-verizon_pm_adelphic_adb&fv=1.0&ex-pl-twca=tSGfBC9iSa64wCtdHpIs2Q&a=cm&ep=ulh7xzA0QxLfk9rQOD277RgN_QLiN8UBqH5_wp67b9v7b4Eo6XpzAdKANQsCfssPd9ulG2ClkZWQIdBzjQhBdr6SvvWjLZc4ja71m3eBYepwq6i5kZYuyaicn5hSRnvh, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Britton-2k-Say-a-Prayer/dp/B07K5D4WXX/ref=sr_1_3525?dchild=1&qid=1602793857&s=alexa-skills&sr=1-3525, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643784740548	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1643784743646	geckodriver	INFO	Listening on 127.0.0.1:36297
+1643784743655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643784744093	Marionette	INFO	Marionette enabled
+1643784744701	Marionette	INFO	Listening on port 2828
+1643784744775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643784963433	Marionette	INFO	Stopped listening on port 2828
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1643785003954	geckodriver	INFO	Listening on 127.0.0.1:55587
+1643785003962	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643785004388	Marionette	INFO	Marionette enabled
+1643785004857	Marionette	INFO	Listening on port 2828
+1643785004871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643785253632	geckodriver	INFO	Listening on 127.0.0.1:60415
+1643785253637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+1643785253638	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785253739	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785253840	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785253942	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254042	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254144	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254245	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254347	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254449	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254550	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254651	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254752	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254854	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785254955	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255057	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255158	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255260	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255361	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255463	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255564	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255666	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255767	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255868	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785255970	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256071	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256172	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256273	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256374	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256475	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256576	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256677	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256779	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256880	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785256981	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257082	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257183	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257285	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257386	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257487	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257587	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257689	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257790	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257891	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785257993	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785258094	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785258195	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785258296	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785258398	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785258499	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785258601	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785258702	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785258803	Marionette	WARN	Connection attempt denied because an active session has been found
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643785263030	geckodriver	INFO	Listening on 127.0.0.1:47819
+1643785263037	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+1643785263038	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263139	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263241	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263343	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263445	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263546	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263648	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263750	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263851	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785263952	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264052	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264153	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264254	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264355	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264457	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264558	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264660	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264761	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264863	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785264965	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265066	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265168	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265269	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265371	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265472	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265574	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265675	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265777	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265878	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785265979	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266080	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266182	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266283	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266384	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266485	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266587	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266688	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266789	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266890	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785266991	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267093	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267194	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267295	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267396	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267497	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267599	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267700	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267801	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785267902	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785268004	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785268104	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785268206	Marionette	WARN	Connection attempt denied because an active session has been found
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643785268306	Marionette	WARN	Connection attempt denied because an active session has been found
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643785268407	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785268507	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785268608	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785268709	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785268810	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785268912	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269013	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269114	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269215	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269317	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269418	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269518	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269619	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269720	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269821	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785269922	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270023	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270124	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270225	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270326	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270427	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270528	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270629	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270731	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270832	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785270934	Marionette	WARN	Connection attempt denied because an active session has been found
+1643785277704	Marionette	INFO	Stopped listening on port 2828
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1643785281826	geckodriver	INFO	Listening on 127.0.0.1:38577
+1643785281833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643785282270	Marionette	INFO	Marionette enabled
+1643785282845	Marionette	INFO	Listening on port 2828
+1643785282953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643785668745	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1643785673295	geckodriver	INFO	Listening on 127.0.0.1:58655
+1643785673298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1643785673715	Marionette	INFO	Marionette enabled
+1643785674183	Marionette	INFO	Listening on port 2828
+1643785674204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643786382290	geckodriver	INFO	Listening on 127.0.0.1:59357
+1643786382292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa" "-no-remote"
+1643786382295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=amazon.com&slot=navFooter&a1=0101c1cf83985626c1f22ab58c7a14de135767d7265c521ce3d09ffdacc65c01a250&a2=0101f4dd6b49898d5577d4df6e09f0d3dc26aed10510e9417a196f27782503100f7a&old_oo=0&ts=1643785682456&s=ARypCAiqrQlIIxJ8hGseCS9QpjjcTd8bZDXKPREyd_w7&gdpr_consent=&gdpr_consent_avl=&cb=1643785682456, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Britton-2k-Say-a-Prayer/dp/B07K5D4WXX/ref=sr_1_3525?dchild=1&qid=1602793857&s=alexa-skills&sr=1-3525, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

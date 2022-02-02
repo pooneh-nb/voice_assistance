@@ -18,7 +18,7 @@ class Skill_Interaction:
         #
         # # List of skills
         self.DATA_DIR = data_dir
-        SKILLS_ADDR = os.path.join(self.DATA_DIR, 'data/subgrouped_skills.json')
+        SKILLS_ADDR = os.path.join(self.DATA_DIR, 'skills_data/subgrouped_skills.json')
         self.all_skills = utilities.read_json(SKILLS_ADDR)[self.PERSONA]
 
         # default fil names
@@ -52,15 +52,15 @@ class Skill_Interaction:
         return text.strip()
 
     def file_clean_up(self):
-        os.remove(self.LAST_RECORDING + '-1.wav')
-        os.remove(self.LAST_RECORDING + '-2.wav')
+        os.remove(os.path.join(self.DATA_DIR, "sound",self.LAST_RECORDING + '-1.wav'))
+        os.remove(os.path.join(self.DATA_DIR, "sound",self.LAST_RECORDING + '-2.wav'))
 
-        os.rename(self.CURRENT_RECORDING + '-1.wav', self.LAST_RECORDING + '-1.wav')
-        os.rename(self.CURRENT_RECORDING + '-2.wav', self.LAST_RECORDING + '-2.wav')
+        os.rename(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-1.wav', self.LAST_RECORDING + '-1.wav'))
+        os.rename(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-2.wav', self.LAST_RECORDING + '-2.wav'))
 
         utterance_wav = gTTS(text='None', lang='en', slow=False)
-        utterance_wav.save(self.CURRENT_RECORDING + '-1.wav')
-        utterance_wav.save(self.CURRENT_RECORDING + '-2.wav')
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound",self.CURRENT_RECORDING + '-1.wav'))
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound",self.CURRENT_RECORDING + '-2.wav'))
 
     def get_utterances(self):
         total_extracted = 0
@@ -99,13 +99,13 @@ class Skill_Interaction:
     def stop_alexa(self):
 
         utterance_wav = gTTS(text='Alexa, stop', lang='en', slow=False)
-        utterance_wav.save(self.ALEXA_STOP + '.wav')
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound",self.ALEXA_STOP + '.wav'))
 
         utterance_wav = gTTS(text='None', lang='en', slow=False)
-        utterance_wav.save(self.LAST_RECORDING + '-1.wav')
-        utterance_wav.save(self.LAST_RECORDING + '-2.wav')
-        utterance_wav.save(self.CURRENT_RECORDING + '-1.wav')
-        utterance_wav.save(self.CURRENT_RECORDING + '-2.wav')
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.LAST_RECORDING + '-1.wav'))
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.LAST_RECORDING + '-2.wav'))
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-1.wav'))
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-2.wav'))
 
     def play_utterances(self, skills_utterances):
         total_utterances = 0
@@ -114,51 +114,40 @@ class Skill_Interaction:
 
         for utterance in skills_utterances:
             utterance_wav = gTTS(text=utterance, lang='en', slow=False)
-            utterance_wav.save(self.CURRENT_UTTERANCE + '.wav')
-            file_name = self.CURRENT_UTTERANCE + '.wav'
+            utterance_wav.save(os.path.join(self.DATA_DIR, "sound",self.CURRENT_UTTERANCE + '.wav'))
+            file_name = os.path.join(self.DATA_DIR, "sound", self.CURRENT_UTTERANCE + '.wav')
+            print(file_name)
             playsound(file_name)
-            #music = pyglet.media.StaticSource(file_name)
-            #music.play()
-            #sleep(music.duration)
-            #os.remove(file_name)
-            ##subprocess.call(['aplay', self.CURRENT_UTTERANCE + '.wav'])
 
             last_responses = self.get_responses(self.LAST_RECORDING)
 
             # continue to next skill after listening
             record_response = Recorder.Recorder()
-            force_stop = record_response.listen(self.CURRENT_RECORDING)
+            force_stop = record_response.listen(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING))
             del record_response
 
             if force_stop:
-                file_name = self.ALEXA_STOP + '.wav'
+                file_name = os.path.join(self.DATA_DIR, "sound", self.ALEXA_STOP + '.wav')
                 playsound(file_name)
-                #music = pyglet.media.load(file_name, streaming=False)
-                #music.play()
-                #sleep(music.duration)
-                #subprocess.call(['aplay', self.ALEXA_STOP + '.wav'])
                 print("Stop")
 
             else:
-                current_responses = self.get_responses(self.CURRENT_RECORDING)
+                current_responses = self.get_responses(os.path.join(self.DATA_DIR, "sound",self.CURRENT_RECORDING))
                 print('LAST:', last_responses)
                 print('CURRENT:', current_responses)
 
                 if any(x in current_responses for x in last_responses):
-                    file_name = self.ALEXA_STOP + '.wav'
+                    file_name = os.path.join(self.DATA_DIR, "sound", self.ALEXA_STOP + '.wav')
                     playsound(file_name)
-                    #music = pyglet.media.load(file_name, streaming=False)
-                    #music.play()
-                    #sleep(music.duration)
-                    #subprocess.call(['aplay', self.ALEXA_STOP + '.wav'])
 
-            #self.file_clean_up()
             time.sleep(2)
 
     def skill_interactor(self):
         print("INTERACTING")
         skills_utterances = self.get_utterances()
+        print("here!!!")
         self.stop_alexa()
+        print("play utterances")
         self.play_utterances(skills_utterances)
 
 

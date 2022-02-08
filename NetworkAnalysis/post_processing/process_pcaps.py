@@ -9,7 +9,7 @@ Basically, the scripts perform:
 4) Run the unified JSON file through the filter-list matching script.
 5) Finally, produce a CSV file that contains the flow of traffic for further processing (e.g., ATS analyses, policy analyses, etc.)
 '''
-# /home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic
+# /home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic_echo
 
 import argparse
 import os
@@ -34,8 +34,8 @@ if __name__ == '__main__':
     # Get the absolute paths
     # dataset_root_abs_dir = os.path.abspath(args.dataset_root_dir)
     # category_csvs_abs_dir = os.path.abspath(args.category_csvs_dir)
-    dataset_root_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic"
-    category_csvs_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data"
+    dataset_root_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/Traffic/Traffic_sdk"
+    category_csvs_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/post_processed/encrypted_sdk"
     dataset_root_abs_dir = os.path.abspath(dataset_root_dir)
     category_csvs_abs_dir = os.path.abspath(category_csvs_dir)
 

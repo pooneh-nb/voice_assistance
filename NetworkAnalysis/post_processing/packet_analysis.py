@@ -2,7 +2,7 @@ import utilities
 import os
 
 
-base_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic"
+base_dir = "/NetworkAnalysis/Traffic_echo"
 categories = utilities.get_directories_in_a_directory(base_dir)
 
 for category in categories:

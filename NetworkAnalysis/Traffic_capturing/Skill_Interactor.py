@@ -28,7 +28,8 @@ class Skill_Interaction:
         self.ALEXA_STOP = 'alexa-stop'
 
     def get_responses(self, file_name):
-        responses = [self.get_last_response(file_name + '-1.wav'), self.get_last_response(file_name + '-2.wav')]
+        responses = [self.get_last_response(os.path.join(self.DATA_DIR, "sound", file_name + '-1.wav')),
+                     self.get_last_response(os.path.join(self.DATA_DIR, "sound", file_name + '-2.wav'))]
         return list(filter(None, responses))
 
     def get_last_response(self, last_recording):

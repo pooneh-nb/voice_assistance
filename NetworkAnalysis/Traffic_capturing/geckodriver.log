@@ -4439,3 +4439,11 @@ ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 ATTENTION: default value of option mesa_glthread overridden by environment.
 JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81AY33PYCPL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1643821504918	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[2022-02-02T17:05:05Z ERROR xulstore::persist] removeDocument error: unavailable

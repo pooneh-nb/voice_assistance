@@ -7,7 +7,7 @@ from NetworkAnalysis.Traffic_capturing import SkillHandler as Installer
 from NetworkAnalysis.Traffic_capturing import Skill_Interactor as Interactor
 import utilities as utilities
 
-# import NetworkAnalysis.Traffic_capturing.Traffic_Capturer as Traffic
+# import NetworkAnalysis.Traffic_capturing.Traffic_Capturer as Traffic_echo
 # import NetworkAnalysis.Traffic_capturing.SkillHandler as Installer
 # import NetworkAnalysis.Traffic_capturing.Skill_Interactor as Interactor
 # import NetworkAnalysis.Traffic_capturing.utilities as utilities
@@ -203,7 +203,7 @@ if __name__ == '__main__':
     selected_categories_dir = os.path.join(data_dir, "skills_data/selected_categories.json")
     selected_categories = utilities.read_json(selected_categories_dir)
     for persona in selected_categories:
-        output_traffic_dir = os.path.join(data_dir, "Traffic2", persona)
+        output_traffic_dir = os.path.join(data_dir, "Traffic_sdk", persona)
         if not os.path.exists(output_traffic_dir):
             os.makedirs(output_traffic_dir)
 

@@ -16,6 +16,7 @@ from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.common.by import By
 
 
 import os
@@ -82,14 +83,17 @@ class Moderator:
             driver.get(self.SIGNIN_PAGE)
             time.sleep(3)
 
-            signin_button = driver.find_element_by_id('a-autoid-0-announce')
-            signin_button.click()
-            time.sleep(3)
+            # signin_button = driver.find_element_by_id('a-autoid-0-announce')
+            # signin_button.click()
+            # time.sleep(3)
 
             try:
+                signin_pop_up_button = driver.find_element(By.XPATH, "//*[contains(text(), 'Sign In')]")
+                signin_pop_up_button.click()
+                time.sleep(3)
                 email_input = driver.find_element_by_id('ap_email')
 
-            except Exception:
+            except Exception as ex:
                 # Assume that the user is already signed in
                 print('Already signed in. Returning.')
                 return True
@@ -97,9 +101,9 @@ class Moderator:
             email_input.send_keys(self.Email)
             time.sleep(3)
 
-            continue_button = driver.find_element_by_id('continue')
-            continue_button.click()
-            time.sleep(3)
+            # continue_button = driver.find_element_by_id('continue')
+            # continue_button.click()
+            # time.sleep(3)
 
             password_input = driver.find_element_by_id('ap_password')
             password_input.send_keys(self.Password)
@@ -138,9 +142,9 @@ class Moderator:
                     skill_perm = False
 
                 # %%% START TCPDUMP
-                traffic = Traffic.TrafficCapturer(skill, self.PERSONA, self.output_traffic_dir)
-                t = threading.Thread(target=traffic.capture_process(), daemon=True)
-                t.start()
+                # traffic = Traffic.TrafficCapturer(skill, self.PERSONA, self.output_traffic_dir)
+                # t = threading.Thread(target=traffic.capture_process(), daemon=True)
+                # t.start()
 
                 # %%% INSTALL
                 installer = Installer.Skill_Handler(driver, skill_url, skill_perm)
@@ -158,16 +162,18 @@ class Moderator:
                 interaction.skill_interactor()
 
                 # %%% UNINSTALL
-                uninstall_status = installer.uninstall_skill()
+                # uninstall_status = installer.uninstall_skill()
 
                 # Log successfully and partially uninstalled skills
-                if uninstall_status[0]:
+                #if uninstall_status[0]:
+                if install_status[0]:
                     total_uninstalled += 1
 
                 # %%% STOP TCPDUMP
-                print("tcpdump is terminated \n")
-                t.join(timeout=1)
-                traffic.terminate_process()
+                # print("tcpdump is terminated \n")
+                # t.join(timeout=1)
+                # traffic.terminate_process()
+
                 if total_uninstalled >= self.no_skills_to_install:
                     print(total_installed)
                     break
@@ -203,7 +209,7 @@ if __name__ == '__main__':
     selected_categories_dir = os.path.join(data_dir, "skills_data/selected_categories.json")
     selected_categories = utilities.read_json(selected_categories_dir)
     for persona in selected_categories:
-        output_traffic_dir = os.path.join(data_dir, "Traffic_sdk", persona)
+        output_traffic_dir = os.path.join(data_dir, "Traffic", "Traffic_echo_1.1.1.1", persona)
         if not os.path.exists(output_traffic_dir):
             os.makedirs(output_traffic_dir)
 
@@ -211,7 +217,7 @@ if __name__ == '__main__':
         firefox_exe_path = '/usr/bin/firefox-trunk'
         gecko_path = os.path.join(data_dir, 'tools/geckodriver')
         signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-        profile = "/home/c2/.mozilla/firefox-trunk/n6e5oyms.alexaa"
+        profile = "/home/c2/.mozilla/firefox-trunk/zptiqr5g.echo-profile"
         email = "alex.nik.echo@gmail.com"
         pasw = "change.me"
         num_skills = 50

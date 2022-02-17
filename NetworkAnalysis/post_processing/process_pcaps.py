@@ -34,8 +34,8 @@ if __name__ == '__main__':
     # Get the absolute paths
     # dataset_root_abs_dir = os.path.abspath(args.dataset_root_dir)
     # category_csvs_abs_dir = os.path.abspath(args.category_csvs_dir)
-    dataset_root_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/Traffic/Traffic_sdk"
-    category_csvs_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/post_processed/encrypted_sdk"
+    dataset_root_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/Traffic/Traffic_echo_1.1.1.1"
+    category_csvs_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/post_processed/encrypted_echo"
     dataset_root_abs_dir = os.path.abspath(dataset_root_dir)
     category_csvs_abs_dir = os.path.abspath(category_csvs_dir)
 

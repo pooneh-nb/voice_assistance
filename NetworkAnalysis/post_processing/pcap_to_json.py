@@ -8,7 +8,7 @@ from pandasql import sqldf
 pysqldf = lambda q: sqldf(q, globals())
 
 
-base_traffic_echo_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/Traffic/Traffic_echo"
+base_traffic_echo_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/Traffic/Traffic_echo_1.1.1.1"
 categories = utilities.get_directories_in_a_directory(base_traffic_echo_dir)
 
 for category in categories:

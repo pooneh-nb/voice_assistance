@@ -23,3 +23,7 @@ data/old-data/*
 health-fitness-old.tar.gz
 data/Amazon-Data/*
 
+/NetworkAnalysis/data/Traffic/
+/NetworkAnalysis/OVRseen/
+/NetworkAnalysis/data/sound/
+/NetworkAnalysis/data/Traffic/

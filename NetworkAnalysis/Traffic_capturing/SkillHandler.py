@@ -46,7 +46,7 @@ class Skill_Handler:
             skill_disable_button.click()
             time.sleep(3)
 
-            pop_up = self.DRIVER.find_element(By.CLASS_NAME, "sc-iWRGeL")
+            pop_up = self.DRIVER.find_element(By.CLASS_NAME, "sc-fubCfw")
             pop_up_skill_disable_button = pop_up.find_element(By.XPATH, "//button[contains(text(), 'Disable Skill')]")
             pop_up_skill_disable_button.click()
             time.sleep(3)

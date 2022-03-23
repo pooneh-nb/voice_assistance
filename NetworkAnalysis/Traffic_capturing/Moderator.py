@@ -122,15 +122,25 @@ class Moderator:
     def main(self):
         driver = self.get_webdriver()
         print('WebDriver registered')
-
+        log_file_path = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/Traffic/traffic_0307.log"
+        utilities.append_file(log_file_path, 'signin:' + ':' + str(time.time()))
         # SIGNING IN
         signin_status = self.signin(driver)
 
         total_installed = 0
         total_uninstalled = 0
+        count = 0
         if signin_status:
             print('Signed in.')
             for skill in self.all_skills:
+                count += 1
+                print(count)
+                # pcaps = [pc.split('/')[-1] for pc in utilities.get_files_in_a_directory(self.output_traffic_dir)]
+                # if skill+'.pcap' in pcaps:
+                #     continue
+                if count > self.no_skills_to_install:
+                    break
+
                 print(self.all_skills[skill]["Name"])
 
                 skill_perm = self.all_skills[skill]['Skill_permission']
@@ -141,11 +151,14 @@ class Moderator:
                 else:
                     skill_perm = False
 
-                # %%% START TCPDUMP
+                # utilities.append_file(log_file_path, 'start_tcpdum:' + ':' + str(time.time()))
+                # # %%% START TCPDUMP
                 # traffic = Traffic.TrafficCapturer(skill, self.PERSONA, self.output_traffic_dir)
                 # t = threading.Thread(target=traffic.capture_process(), daemon=True)
                 # t.start()
 
+                utilities.append_file(log_file_path,
+                                      'install:' + skill + ':' + str(time.time()))
                 # %%% INSTALL
                 installer = Installer.Skill_Handler(driver, skill_url, skill_perm)
                 install_status = installer.install_skill()
@@ -154,22 +167,30 @@ class Moderator:
                 if install_status[0]:
                     total_installed += 1
 
-                if total_installed >= self.no_skills_to_install:
+                # if total_installed >= self.no_skills_to_install:
+                #     break
+                if count >= self.no_skills_to_install:
                     break
 
                 # %%% INTERACT
-                interaction = Interactor.Skill_Interaction(self.DATA_DIR, self.PERSONA, skill)
+                utilities.append_file(log_file_path,
+                                      'interact:' + skill + ':' + str(time.time()))
+                interaction = Interactor.Skill_Interaction(self.DATA_DIR, self.PERSONA, skill, log_file_path)
                 interaction.skill_interactor()
 
+                # utilities.append_file(log_file_path,
+                #                       'uninstall:' + skill + ':' + str(time.time()))
                 # %%% UNINSTALL
                 # uninstall_status = installer.uninstall_skill()
 
                 # Log successfully and partially uninstalled skills
-                #if uninstall_status[0]:
-                if install_status[0]:
-                    total_uninstalled += 1
+                # if uninstall_status[0]:
+                # # if install_status[0]:
+                #     total_uninstalled += 1
 
                 # %%% STOP TCPDUMP
+                # utilities.append_file(log_file_path,
+                #                       'stop_tcp_dump,' + '' + ',' + str(time.time()))
                 # print("tcpdump is terminated \n")
                 # t.join(timeout=1)
                 # traffic.terminate_process()
@@ -209,7 +230,7 @@ if __name__ == '__main__':
     selected_categories_dir = os.path.join(data_dir, "skills_data/selected_categories.json")
     selected_categories = utilities.read_json(selected_categories_dir)
     for persona in selected_categories:
-        output_traffic_dir = os.path.join(data_dir, "Traffic", "Traffic_echo_1.1.1.1", persona)
+        output_traffic_dir = os.path.join(data_dir, "Traffic", "Traffic_echo_0307", persona)
         if not os.path.exists(output_traffic_dir):
             os.makedirs(output_traffic_dir)
 
@@ -217,8 +238,8 @@ if __name__ == '__main__':
         firefox_exe_path = '/usr/bin/firefox-trunk'
         gecko_path = os.path.join(data_dir, 'tools/geckodriver')
         signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-        profile = "/home/c2/.mozilla/firefox-trunk/zptiqr5g.echo-profile"
-        email = "alex.nik.echo@gmail.com"
+        profile = "/home/c2/.mozilla/firefox-trunk/r2719jhf.car"
+        email = "mina.echo.lee@gmail.com"
         pasw = "change.me"
         num_skills = 50
         moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw,

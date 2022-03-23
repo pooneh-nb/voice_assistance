@@ -11,7 +11,7 @@ from playsound import playsound
 
 
 class Skill_Interaction:
-    def __init__(self, data_dir, persona, skill):
+    def __init__(self, data_dir, persona, skill, log_file_path):
         # persona
         self.PERSONA = persona
         self.SKILL = skill
@@ -21,11 +21,13 @@ class Skill_Interaction:
         SKILLS_ADDR = os.path.join(self.DATA_DIR, 'skills_data/subgrouped_skills.json')
         self.all_skills = utilities.read_json(SKILLS_ADDR)[self.PERSONA]
 
-        # default fil names
+        # default file names
         self.LAST_RECORDING = 'last-recording'
         self.CURRENT_RECORDING = 'current-recording'
         self.CURRENT_UTTERANCE = 'current-utterance'
         self.ALEXA_STOP = 'alexa-stop'
+
+        self.LOG = log_file_path
 
     def get_responses(self, file_name):
         responses = [self.get_last_response(os.path.join(self.DATA_DIR, "sound", file_name + '-1.wav')),
@@ -53,15 +55,17 @@ class Skill_Interaction:
         return text.strip()
 
     def file_clean_up(self):
-        os.remove(os.path.join(self.DATA_DIR, "sound",self.LAST_RECORDING + '-1.wav'))
-        os.remove(os.path.join(self.DATA_DIR, "sound",self.LAST_RECORDING + '-2.wav'))
+        os.remove(os.path.join(self.DATA_DIR, "sound", self.LAST_RECORDING + '-1.wav'))
+        os.remove(os.path.join(self.DATA_DIR, "sound", self.LAST_RECORDING + '-2.wav'))
 
-        os.rename(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-1.wav', self.LAST_RECORDING + '-1.wav'))
-        os.rename(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-2.wav', self.LAST_RECORDING + '-2.wav'))
+        os.rename(
+            os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-1.wav', self.LAST_RECORDING + '-1.wav'))
+        os.rename(
+            os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-2.wav', self.LAST_RECORDING + '-2.wav'))
 
         utterance_wav = gTTS(text='None', lang='en', slow=False)
-        utterance_wav.save(os.path.join(self.DATA_DIR, "sound",self.CURRENT_RECORDING + '-1.wav'))
-        utterance_wav.save(os.path.join(self.DATA_DIR, "sound",self.CURRENT_RECORDING + '-2.wav'))
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-1.wav'))
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING + '-2.wav'))
 
     def get_utterances(self):
         total_extracted = 0
@@ -100,7 +104,7 @@ class Skill_Interaction:
     def stop_alexa(self):
 
         utterance_wav = gTTS(text='Alexa, stop', lang='en', slow=False)
-        utterance_wav.save(os.path.join(self.DATA_DIR, "sound",self.ALEXA_STOP + '.wav'))
+        utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.ALEXA_STOP + '.wav'))
 
         utterance_wav = gTTS(text='None', lang='en', slow=False)
         utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.LAST_RECORDING + '-1.wav'))
@@ -114,8 +118,10 @@ class Skill_Interaction:
             total_utterances += 1
 
         for utterance in skills_utterances:
+            utilities.append_file(self.LOG,
+                                  utterance + ':' + self.SKILL + ':' + str(time.time()))
             utterance_wav = gTTS(text=utterance, lang='en', slow=False)
-            utterance_wav.save(os.path.join(self.DATA_DIR, "sound",self.CURRENT_UTTERANCE + '.wav'))
+            utterance_wav.save(os.path.join(self.DATA_DIR, "sound", self.CURRENT_UTTERANCE + '.wav'))
             file_name = os.path.join(self.DATA_DIR, "sound", self.CURRENT_UTTERANCE + '.wav')
             print(file_name)
             playsound(file_name)
@@ -130,10 +136,12 @@ class Skill_Interaction:
             if force_stop:
                 file_name = os.path.join(self.DATA_DIR, "sound", self.ALEXA_STOP + '.wav')
                 playsound(file_name)
+                utilities.append_file(self.LOG,
+                                      'STOP:' + self.SKILL + ':' + str(time.time()))
                 print("Stop")
 
             else:
-                current_responses = self.get_responses(os.path.join(self.DATA_DIR, "sound",self.CURRENT_RECORDING))
+                current_responses = self.get_responses(os.path.join(self.DATA_DIR, "sound", self.CURRENT_RECORDING))
                 print('LAST:', last_responses)
                 print('CURRENT:', current_responses)
 
@@ -146,12 +154,6 @@ class Skill_Interaction:
     def skill_interactor(self):
         print("INTERACTING")
         skills_utterances = self.get_utterances()
-        print("here!!!")
         self.stop_alexa()
         print("play utterances")
         self.play_utterances(skills_utterances)
-
-
-
-
-

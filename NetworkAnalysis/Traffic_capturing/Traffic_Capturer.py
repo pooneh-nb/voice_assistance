@@ -10,7 +10,7 @@ class TrafficCapturer:
     def __init__(self, skill, persona, output_traffic_dir):
         self.SKILL = skill
         file_id = output_traffic_dir + "/" +self.SKILL + '.pcap'  #"/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic_echo/"
-        command = f"tcpdump -i wlo1 -vvv -w {file_id}"
+        command = f"tcpdump -i wlo1 -tttt -vvv -w {file_id}"
         self.COMMAND = command
         self._running = True
 

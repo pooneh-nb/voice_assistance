@@ -8,7 +8,7 @@ from pandasql import sqldf
 pysqldf = lambda q: sqldf(q, globals())
 
 
-base_traffic_echo_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/Traffic/Traffic_echo_1.1.1.1"
+base_traffic_echo_dir = "/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/data/Traffic/Traffic_echo_0307_new"
 categories = utilities.get_directories_in_a_directory(base_traffic_echo_dir)
 
 for category in categories:
@@ -17,6 +17,7 @@ for category in categories:
         os.mkdir(os.path.join(category, "jsons"))
 
 for category in categories:
+
     print(category)
     pcaps = utilities.get_files_in_a_directory(category)
     for pcap in pcaps:

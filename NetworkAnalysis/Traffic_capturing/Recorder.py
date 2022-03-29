@@ -97,13 +97,13 @@ class Recorder:
             # May need to move this logic up in write.
             if rms_val >= Threshold:
                 count = 0
-                # speak_counter += 1
+                speak_counter += 1
 
                 ## 6 * 5 (TIMEOUT)
                 ## Listen for 30 seconds at max and then break
-                # if speak_counter > 6:
-                #    force_stop = True
-                #    break
+                if speak_counter > 6:
+                   force_stop = True
+                   break
 
                 force_stop = self.record(file_name)
 

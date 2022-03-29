@@ -9,7 +9,11 @@ import subprocess
 class TrafficCapturer:
     def __init__(self, skill, persona, output_traffic_dir):
         self.SKILL = skill
-        file_id = output_traffic_dir + "/" +self.SKILL + '.pcap'  #"/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic_echo/"
+
+        file_dir = output_traffic_dir + "/" + self.SKILL  #"/home/c2/alexa/source/voice-assistant-central/NetworkAnalysis/Traffic_echo/"
+        if not os.path.exists(file_dir):
+            os.mkdir(file_dir)
+        file_id = os.path.join(file_dir, self.SKILL + '.pcap')
         command = f"tcpdump -i wlo1 -tttt -vvv -w {file_id}"
         self.COMMAND = command
         self._running = True

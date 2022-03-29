@@ -1,0 +1,151 @@
+Persona,Music app,Ad,count,unique
+plain,Amazon,pen tell store,1,Plain
+plain,Amazon,apartments.com,1,FALSE
+plain,Amazon,Amazon music unlimited,10,FALSE
+plain,Amazon,Geico,4,FALSE
+plain,Amazon,Love has No Labels ,1,Plain
+plain,Amazon,Amazon ads,5,FALSE
+plain,Amazon,Charity for Ukranian chirldren,1,Plain
+plain,Amazon,Nationwide Mutual Insurance Company,2,FALSE
+plain,Amazon,Squarespace,2,FALSE
+plain,Amazon,Nespresso,1,Plain
+plain,Amazon,Alexa,1,FALSE
+plain,Amazon,IMDB,1,FALSE
+plain,Spotify,Geico,2,FALSE
+plain,Spotify,Premium Spotify,13,FALSE
+plain,Spotify,Spotify Ad Studio,3,FALSE
+plain,Spotify,Anchor app by Spotify,2,Plain
+plain,Spotify,GoGo squeeze,3,FALSE
+plain,Spotify,Disney Plus,1,FALSE
+plain,Spotify,McDonald's ,1,FALSE
+plain,Spotify,Legal Zoom,1,FALSE
+plain,Spotify,Starbucks,1,FALSE
+plain,Spotify,Indeed,1,FALSE
+plain,Spotify,Nationwide Mutual Insurance Company,3,FALSE
+plain,Spotify,Pluto TV,1,FALSE
+plain,Spotify,Low's,2,FALSE
+plain,Spotify,YSL beauty,1,Plain
+plain,Spotify,Audible App,1,Plain
+plain,Pandora,Toyotas,1,FALSE
+plain,Pandora,Capital One,2,FALSE
+plain,Pandora,Indeed,1,FALSE
+plain,Pandora,Taco Bell,2,FALSE
+plain,Pandora,Discover,5,FALSE
+plain,Pandora,Burlington,1,FALSE
+plain,Pandora,"clear blue digital 
+pregnancy test",1,FALSE
+plain,Pandora,statefarm.com,1,FALSE
+plain,Pandora,Penn State World Campus,1,FALSE
+plain,Pandora,Xfinity,2,FALSE
+plain,Pandora,McDonald's ,1,FALSE
+plain,Pandora,Geico,1,FALSE
+plain,Pandora,recyclesmart.com,1,Plain
+plain,Pandora,Chick-Fil-A,1,FALSE
+plain,Pandora,TurboTax,4,FALSE
+plain,Pandora,Kohl's,2,FALSE
+plain,Pandora,Carmax,1,FALSE
+plain,Pandora,"The General Auto Insurance Services Insurance Agency Nashville, ",1,Plain
+plain,Pandora,Disney Plus,1,FALSE
+plain,Pandora,AT&T,1,FALSE
+plain,Pandora,Nordstrom Rack,1,FALSE
+Conncted Car,Amazon,Amazon music unlimited,6,FALSE
+Conncted Car,Amazon,Indeed,1,FALSE
+Conncted Car,Amazon,Nationwide Mutual Insurance Company,2,FALSE
+Conncted Car,Amazon,IMDB,4,FALSE
+Conncted Car,Amazon,Allstate insurance company ,3,Connected Car
+Conncted Car,Amazon,Alexa,2,FALSE
+Conncted Car,Amazon,Total Wireless,1,Connected Car
+Conncted Car,Amazon,AeroGarden ,1,Connected Car
+Conncted Car,Amazon,Duncan,1,FALSE
+Conncted Car,Amazon,Breda,2,Connected Car
+Conncted Car,Amazon,Squarespace,3,FALSE
+Conncted Car,Amazon,apartments.com,1,FALSE
+Conncted Car,Amazon,Apple Card,1,FALSE
+Conncted Car,Amazon,Pluto TV,1,FALSE
+Conncted Car,Amazon,Amazon ads,2,FALSE
+Connected Car,Spotify,Gillette Labs razor ,2,Connected Car
+Connected Car,Spotify,McDonald's,1,FALSE
+Connected Car,Spotify,"Philadelphia 
+creame cheese",2,Connected Car
+Connected Car,Spotify,Geico,1,FALSE
+Connected Car,Spotify,German pretzel,1,Connected Car
+Connected Car,Spotify,Proper No Twelve Irish Whiskey,1,Connected Car
+Conncted Car,Pandora,Spectrum mobile company,1,Connected Car
+Conncted Car,Pandora,JCPenny,1,Connected Car
+Conncted Car,Pandora,statefarm.com,1,FALSE
+Conncted Car,Pandora,Taco Bell,3,FALSE
+Conncted Car,Pandora,"COVID 19 vaccine
+by BioNTech and Pfizer ",1,Connected Car
+Conncted Car,Pandora,OLay body wash,1,Connected Car
+Conncted Car,Pandora,Xfinity,1,FALSE
+Conncted Car,Pandora,Burlington,2,FALSE
+Conncted Car,Pandora,Carmax,2,FALSE
+Conncted Car,Pandora,Indeed,1,FALSE
+Conncted Car,Pandora,Capital One,1,FALSE
+Conncted Car,Pandora,National Association of Realtors. (NAR),1,Connected Car
+Conncted Car,Pandora,Nordstrom Rack,1,FALSE
+Conncted Car,Pandora,Disney Plus,2,FALSE
+Conncted Car,Pandora,Toyotas,1,FALSE
+Conncted Car,Pandora,Discover,1,FALSE
+Conncted Car,Pandora,Chick-Fil-A,2,FALSE
+Conncted Car,Pandora,Peter Levy team,2,Connected Car
+Conncted Car,Pandora,Target,1,Connected Car
+Conncted Car,Pandora,rocketmortgage.com,1,Connected Car
+Conncted Car,Pandora,Febreeze car vent clip,1,Connected Car
+Fashion Style,Amazon,Amazon music unlimited,11,FALSE
+Fashion Style,Amazon,NX Lexus,1,Fashion Style
+Fashion Style,Amazon,Nationwide Mutual Insurance Company,3,FALSE
+Fashion Style,Amazon,apartments.com,1,FALSE
+Fashion Style,Amazon,Amazon ads,3,FALSE
+Fashion Style,Amazon,IMDB,4,FALSE
+Fashion Style,Amazon,Alexa,2,FALSE
+Fashion Style,Amazon,Indeed,1,FALSE
+Fashion Style,Amazon,Duncan,1,FALSE
+Fashion Style,Amazon,Geico,3,FALSE
+Fashion Style,Amazon,Apple Card,1,FALSE
+Fashion Style,Amazon,Squarespace,1,FALSE
+Fashion Style,Spotify,Geico,5,FALSE
+Fashion Style,Spotify,Hulu,1,Fashion Style
+Fashion Style,Spotify,GNC,1,Fashion Style
+Fashion Style,Spotify,Premium Spotify,8,FALSE
+Fashion Style,Spotify,Ashley,3,Fashion Style
+Fashion Style,Spotify,Disney Plus,1,FALSE
+Fashion Style,Spotify,AT&T,2,FALSE
+Fashion Style,Spotify,Legal Zoom,3,FALSE
+Fashion Style,Spotify,Low's,2,FALSE
+Fashion Style,Spotify,California.org/Radio,1,Fashion Style
+Fashion Style,Spotify,Starbucks,1,FALSE
+Fashion Style,Spotify,Miller Lite Lego LeBron,1,Fashion Style
+Fashion Style,Spotify,Bumble and Spotify,1,Fashion Style
+Fashion Style,Spotify,Indeed,2,FALSE
+Fashion Style,Spotify,Aussie cheese fries,1,Fashion Style
+Fashion Style,Spotify,Spotify Ad Studio,1,FALSE
+Fashion Style,Spotify,Ross,2,Fashion Style
+Fashion Style,Spotify,energyupgradeCalifornia.org/Radio,1,Fashion Style
+Fashion Style,Spotify,Pluto TV,1,FALSE
+Fashion Style,Spotify,Kohl's,1,FALSE
+Fashion Style,Spotify,GoGo squeeze,2,FALSE
+Fashion Style,Spotify,CircleK,1,Fashion Style
+Fashion Style,Spotify,Nationwide Mutual Insurance Company,1,FALSE
+Fashion Style,Spotify,Disney Plus,1,FALSE
+Fashion Style,Spotify,Xfinity,1,FALSE
+Fashion Style,Pandora,Disney Plus,1,FALSE
+Fashion Style,Pandora,Xfinity,2,FALSE
+Fashion Style,Pandora,Clear Blue Digital pregnancy tests,1,FALSE
+Fashion Style,Pandora,Chick-Fil-A,3,FALSE
+Fashion Style,Pandora,Discover,7,FALSE
+Fashion Style,Pandora,TurboTax,2,FALSE
+Fashion Style,Pandora,Toyotas,1,FALSE
+Fashion Style,Pandora,Panera,1,Fashion Style
+Fashion Style,Pandora,Burlington,4,FALSE
+Fashion Style,Pandora,Geico,3,FALSE
+Fashion Style,Pandora,Wendy,1,Fashion Style
+Fashion Style,Pandora,AT&T,1,FALSE
+Fashion Style,Pandora,Indeed,3,FALSE
+Fashion Style,Pandora,TurboTax,3,FALSE
+Fashion Style,Pandora,Swiffer Wet Jet,3,Fashion Style
+Fashion Style,Pandora,Taco Bell,3,FALSE
+Fashion Style,Pandora,the University of Arizona,1,Fashion Style
+Fashion Style,Pandora,Kohl's,3,FALSE
+Fashion Style,Pandora,Carmax,2,FALSE
+Fashion Style,Pandora,Penn State World Campus,2,FALSE

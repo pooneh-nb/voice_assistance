@@ -16,3 +16,4 @@ for category in categories:
     # for key, val in network_json.items():
     #     print(len(key))
     #     print(len(val))
+

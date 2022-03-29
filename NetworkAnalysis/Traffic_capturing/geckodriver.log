@@ -17669,3 +17669,218 @@ JavaScript warning: https://www.amazon.com/TeslaFi-com-LLC-Unofficial-Tesla/dp/B
 JavaScript warning: https://www.amazon.com/Nissan-North-America-INFINITI-Services/dp/B074XGLD4V/ref=sr_1_45?dchild=1&qid=1602832994&s=alexa-skills&sr=1-45 line 2257 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://www.amazon.com/Nissan-North-America-NissanConnect-EV/dp/B077VXVF8D/ref=sr_1_23?dchild=1&qid=1602832965&s=alexa-skills&sr=1-23 line 2296 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Mercedes-Benz-Mercedes-me-connect/dp/B075435C1Y/ref=lp_14284820011_1_14?s=digital-skills&ie=UTF8&qid=1602832937&sr=1-14 line 2323 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648051303611	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1648051307353	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/GasBuddy/dp/B07LBB3DRS/ref=lp_14284820011_1_15?s=digital-skills&ie=UTF8&qid=1602832937&sr=1-15 line 2254 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648051380710	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/American-Honda-Motor-Co-Inc/dp/B08K882PZB/ref=lp_14284820011_1_11?s=digital-skills&ie=UTF8&qid=1602832937&sr=1-11 line 2327 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Garmin-International/dp/B075TRB4V5/ref=sr_1_25?dchild=1&qid=1602832965&s=alexa-skills&sr=1-25 line 2328 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/American-Honda-Motor-Co-Inc/dp/B08K879WHF/ref=lp_14284820011_1_8?s=digital-skills&ie=UTF8&qid=1602832937&sr=1-8 line 2330 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Tail-Light-llc-Bouncie/dp/B0744DQGMD/ref=sr_1_55?dchild=1&qid=1602833022&s=alexa-skills&sr=1-55 line 2252 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Nikhil-Kapur-EV-Car/dp/B01MU8Q80L/ref=sr_1_167?dchild=1&qid=1602833209&s=alexa-skills&sr=1-167 line 2317 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/GreyMan-Software-Jaguar-Remote-Control/dp/B087CQCFSM/ref=sr_1_77?dchild=1&qid=1602833049&s=alexa-skills&sr=1-77 line 2300 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/NEXTBASE-MyNextbase-Dash-Cam/dp/B07XYBLMSN/ref=sr_1_38?dchild=1&qid=1602832994&s=alexa-skills&sr=1-38 line 2301 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/VOLKSWAGEN-of-America-Inc-Volkswagen/dp/B089JMLR9Z/ref=sr_1_35?dchild=1&qid=1602832994&s=alexa-skills&sr=1-35 line 2283 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Automobility-CarLink/dp/B08F2SLKRW/ref=sr_1_44?dchild=1&qid=1602832994&s=alexa-skills&sr=1-44 line 2407 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648052173431	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Mitsubishi-Motors-Corporation-My-Connect/dp/B07B31GLRT/ref=sr_1_49?dchild=1&qid=1602833022&s=alexa-skills&sr=1-49 line 2306 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648052206294	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Jones-Software-Tesla-Cockpit-Unoffical/dp/B01MS2J721/ref=sr_1_53?dchild=1&qid=1602833022&s=alexa-skills&sr=1-53 line 2330 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Reavelo-Ltd-Elon-Tesla-Unofficial/dp/B06XQX2XJG/ref=sr_1_160?dchild=1&qid=1602833181&s=alexa-skills&sr=1-160 line 2316 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/GreyMan-Software-Rover-Remote-Control/dp/B08BR61MBH/ref=sr_1_27?dchild=1&qid=1602832965&s=alexa-skills&sr=1-27 line 2298 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ParkWhiz-Inc/dp/B076285Z91/ref=sr_1_42?dchild=1&qid=1602832994&s=alexa-skills&sr=1-42 line 2262 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Nissan-North-America-INFINITI-Connection/dp/B074WZL414/ref=sr_1_47?dchild=1&qid=1602832994&s=alexa-skills&sr=1-47 line 2201 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Zubie-Inc/dp/B01DL9DP1M/ref=lp_14284820011_1_12?s=digital-skills&ie=UTF8&qid=1602832937&sr=1-12 line 2252 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648052553088	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://login.zubiecar.com/js/jquery-2.0.3.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Vinli/dp/B01K8S453Q/ref=sr_1_26?dchild=1&qid=1602832965&s=alexa-skills&sr=1-26 line 2269 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648052588552	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1648052589924	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AAA-Road-Service/dp/B07TJWXZW9/ref=sr_1_52?dchild=1&qid=1602833022&s=alexa-skills&sr=1-52 line 2267 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Automobility-MyCarTM/dp/B08F2RD4QS/ref=sr_1_50?dchild=1&qid=1602833022&s=alexa-skills&sr=1-50 line 2353 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Cream-City-Digital-On-board-diagnostics/dp/B0773WNJWJ/ref=sr_1_150?dchild=1&qid=1602833181&s=alexa-skills&sr=1-150 line 2272 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648052686243	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OIjmyNzvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Agnik-Vyncs/dp/B07MG98QLK/ref=sr_1_128?dchild=1&qid=1602833125&s=alexa-skills&sr=1-128 line 2252 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/SoapVox-Evie-Assistant/dp/B07GWBDR93/ref=sr_1_143?dchild=1&qid=1602833152&s=alexa-skills&sr=1-143 line 2298 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648052785923	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1648052789135	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+[2022-03-23T16:26:29Z ERROR xulstore::persist] removeDocument error: unavailable
+1648053406838	geckodriver	INFO	Listening on 127.0.0.1:57399
+1648053407349	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "58503" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648053407814	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:58503/devtools/browser/db91d9c0-f375-469c-8bc8-faf505bd0339
+WebDriver BiDi listening on ws://localhost:58503
+1648053408383	Marionette	INFO	Listening on port 2828
+1648053408471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2262 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/TeamHaffey-Color-Guide/dp/B074YD65JC/ref=sr_1_217?dchild=1&qid=1602772964&s=alexa-skills&sr=1-217 line 2259 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Developer-What-should-I-wear/dp/B07GT1WXQ9/ref=lp_14284840011_1_4?s=digital-skills&ie=UTF8&qid=1602772432&sr=1-4 line 2239 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Keith-Dsouza-Dress-Color-Picker/dp/B07J1W3MPF/ref=sr_1_158?dchild=1&qid=1602772797&s=alexa-skills&sr=1-158 line 2240 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/FluiBex-Wear-Assistant/dp/B072KL1S3G/ref=sr_1_233?dchild=1&qid=1602773008&s=alexa-skills&sr=1-233 line 2262 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Regis-Corporation-Opensalon/dp/B07WGB3Y5N/ref=sr_1_81?dchild=1&qid=1602772662&s=alexa-skills&sr=1-81 line 2244 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Ritika-Nainwal-Fashion/dp/B07JRB458R/ref=sr_1_148?dchild=1&qid=1602772797&s=alexa-skills&sr=1-148 line 2255 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Able-Style/dp/B06VTBRYSC/ref=sr_1_241?dchild=1&qid=1602773058&s=alexa-skills&sr=1-241 line 2308 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Sport-Clips/dp/B083PY1PGZ/ref=lp_14284840011_1_12?s=digital-skills&ie=UTF8&qid=1602772432&sr=1-12 line 2175 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/What-wear-today-Outfit-Ideas/dp/B07R7DGK6K/ref=lp_14284840011_1_1?s=digital-skills&ie=UTF8&qid=1602772432&sr=1-1 line 2250 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648053751022	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.com/Doug-ColorBot/dp/B01MUGQEPP/ref=sr_1_246?dchild=1&qid=1602773058&s=alexa-skills&sr=1-246 line 2267 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/MMW-Closet-Cleanup/dp/B01M6CVCB3/ref=sr_1_249?dchild=1&qid=1602773058&s=alexa-skills&sr=1-249 line 2259 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Pretty-in-Green-Houseplant-Tricks/dp/B07GFHMMTC/ref=lp_14284840011_1_11?s=digital-skills&ie=UTF8&qid=1602772432&sr=1-11 line 2239 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648053930815	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.com/CDR-Fundraising-Group-Philadelphia-Museum/dp/B07NYWKWWN/ref=sr_1_105?dchild=1&qid=1602772699&s=alexa-skills&sr=1-105 line 2163 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/RISD-Dress-Up/dp/B07PYV9WPK/ref=sr_1_100?dchild=1&qid=1602772699&s=alexa-skills&sr=1-100 line 2240 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Gwynnie-Bee/dp/B07DX3TDHD/ref=lp_14284840011_1_16?s=digital-skills&ie=UTF8&qid=1602772432&sr=1-16 line 2281 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648054064172	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.com/JKrepps-Beauty-Hacks/dp/B01N2656H1/ref=sr_1_243?dchild=1&qid=1602773058&s=alexa-skills&sr=1-243 line 2259 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Tommy-Hilfiger-Ask-Adaptive/dp/B07VNTVM3X/ref=sr_1_84?dchild=1&qid=1602772662&s=alexa-skills&sr=1-84 line 2247 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Garnier/dp/B07ZMW994H/ref=sr_1_60?dchild=1&qid=1602772567&s=alexa-skills&sr=1-60 line 2169 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648054202826	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.com/Scotts-Trial-Apps-Shorts/dp/B073BYHFNG/ref=sr_1_229?dchild=1&qid=1602773008&s=alexa-skills&sr=1-229 line 2233 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648054294679	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.com/Sperry-Waterkeeper/dp/B07P6JK2RC/ref=sr_1_104?dchild=1&qid=1602772699&s=alexa-skills&sr=1-104 line 2243 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Salon-Republic-Hair-Game-Podcast/dp/B07PRG9MNR/ref=sr_1_102?dchild=1&qid=1602772699&s=alexa-skills&sr=1-102 line 2242 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648054407250	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.com/SMS-Selfie-Facts/dp/B072XM5SNX/ref=sr_1_231?dchild=1&qid=1602773008&s=alexa-skills&sr=1-231 line 2254 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Style-Girlfriend-LLC/dp/B075VCGLML/ref=sr_1_213?dchild=1&qid=1602772964&s=alexa-skills&sr=1-213 line 2233 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648054620091	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.com/Christopher-Hoang-Outfit-Decider/dp/B074VZGDQL/ref=sr_1_218?dchild=1&qid=1602772964&s=alexa-skills&sr=1-218 line 2156 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Home-Experiences-Hair-Care-At/dp/B087YM4KJK/ref=sr_1_37?dchild=1&qid=1602772519&s=alexa-skills&sr=1-37 line 2268 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Cappen-Mercury-Jacket/dp/B07NDX1ZLQ/ref=sr_1_108?dchild=1&qid=1602772699&s=alexa-skills&sr=1-108 line 2246 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Perry-Ellis-Ask/dp/B075LLDPTB/ref=sr_1_214?dchild=1&qid=1602772964&s=alexa-skills&sr=1-214 line 2245 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Xeline-Development-Makeup-the-Day/dp/B072N6BNB1/ref=sr_1_232?dchild=1&qid=1602773008&s=alexa-skills&sr=1-232 line 2239 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/student-Outfit-Check/dp/B07MYH64DY/ref=lp_14284840011_1_8?s=digital-skills&ie=UTF8&qid=1602772432&sr=1-8 line 2240 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Macde-BollyWood-dialogues/dp/B07Q6WZV32/ref=sr_1_96?dchild=1&qid=1602772662&s=alexa-skills&sr=1-96 line 2175 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Keith-Dsouza-Pant-Color/dp/B073WHY36J/ref=sr_1_225?dchild=1&qid=1602773008&s=alexa-skills&sr=1-225 line 2259 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Mehz-Rectifying-bad-hair-day/dp/B073DSDCZ6/ref=sr_1_227?dchild=1&qid=1602773008&s=alexa-skills&sr=1-227 line 2259 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Tim-M-Supreme-Drops/dp/B07CG1ZPY6/ref=sr_1_190?dchild=1&qid=1602772882&s=alexa-skills&sr=1-190 line 2242 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Das-Jott-My-Daily-Color/dp/B079JS9GL8/ref=sr_1_201?dchild=1&qid=1602772919&s=alexa-skills&sr=1-201 line 2184 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648055218749	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.amazon.com/Ryan-Wagner-Mens-style-tip/dp/B076PBBXZC/ref=sr_1_211?dchild=1&qid=1602772964&s=alexa-skills&sr=1-211 line 2261 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Matt-Coleman-SneakerSpeaker/dp/B079SYFYV7/ref=sr_1_198?dchild=1&qid=1602772919&s=alexa-skills&sr=1-198 line 2240 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/What-color-dress-should-wear/dp/B01KBRLJMO/ref=sr_1_251?dchild=1&qid=1602773058&s=alexa-skills&sr=1-251 line 2259 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Krishan-Patel-ColorComplements/dp/B07K1CHP1T/ref=sr_1_144?dchild=1&qid=1602772757&s=alexa-skills&sr=1-144 line 2240 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin%3Fopenid.assoc_handle%3Damzn_launchpad_us%26openid.pape.max_auth_age%3D0%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%26openid.return_to%3Dhttps%3A%2F%2Fwww.amazon.com%2FKrishan-Patel-ColorComplements%2Fdp%2FB07K1CHP1T%2Fref%3Dsr_1_144%3Fdchild%3D1%26qid%3D1602772757%26s%3Dalexa-skills%26sr%3D1-144%26openid.ns.pape%3Dhttp%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0 line 776 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Katie-alice-designs-Nail-Tips/dp/B06XX5TKMK/ref=sr_1_239?dchild=1&qid=1602773008&s=alexa-skills&sr=1-239 line 2259 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Design-tips-from-Smith-Noble/dp/B089B4252F/ref=sr_1_34?dchild=1&qid=1602772519&s=alexa-skills&sr=1-34 line 2251 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin%3Fopenid.assoc_handle%3Damzn_launchpad_us%26openid.pape.max_auth_age%3D0%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%26openid.return_to%3Dhttps%3A%2F%2Fwww.amazon.com%2FDesign-tips-from-Smith-Noble%2Fdp%2FB089B4252F%2Fref%3Dsr_1_34%3Fdchild%3D1%26qid%3D1602772519%26s%3Dalexa-skills%26sr%3D1-34%26openid.ns.pape%3Dhttp%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0 line 776 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Hoelee-Lucky-Lottery-Number/dp/B07CML6JZ2/ref=sr_1_188?dchild=1&qid=1602772882&s=alexa-skills&sr=1-188 line 2165 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Wunder2-Beauty-Tips/dp/B077PP9WSQ/ref=sr_1_207?dchild=1&qid=1602772919&s=alexa-skills&sr=1-207 line 2275 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Nate-Christiansen-Halloween-Costumes/dp/B07J3CSRJV/ref=sr_1_19?dchild=1&qid=1602772475&s=alexa-skills&sr=1-19 line 2235 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/DuskyBomb-Fashion-Tips/dp/B07JVHKVJ2/ref=sr_1_145?dchild=1&qid=1602772797&s=alexa-skills&sr=1-145 line 2259 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Tim-Gill-Shopbop/dp/B07DT7F925/ref=lp_14284840011_1_15?s=digital-skills&ie=UTF8&qid=1602772432&sr=1-15 line 2239 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648055660949	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[2022-03-23T17:14:21Z ERROR xulstore::persist] removeDocument error: unavailable

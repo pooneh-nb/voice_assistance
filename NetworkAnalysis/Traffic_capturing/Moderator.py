@@ -238,8 +238,8 @@ if __name__ == '__main__':
         firefox_exe_path = '/usr/bin/firefox-trunk'
         gecko_path = os.path.join(data_dir, 'tools/geckodriver')
         signin_page = 'https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641'
-        profile = "/home/c2/.mozilla/firefox-trunk/r2719jhf.car"
-        email = "mina.echo.lee@gmail.com"
+        profile = "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion"
+        email = "tina.echo.lee@gmail.com"
         pasw = "change.me"
         num_skills = 50
         moderator_obj = Moderator(firefox_exe_path, gecko_path, data_dir, signin_page, profile, email, pasw,

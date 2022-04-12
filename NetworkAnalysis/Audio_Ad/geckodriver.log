@@ -1,0 +1,1017 @@
+1648106956578	geckodriver	INFO	Listening on 127.0.0.1:53751
+1648106957099	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "44951" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648106957821	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:44951/devtools/browser/2dd49f0c-b4a7-4dae-b508-e6c404f8dd34
+WebDriver BiDi listening on ws://localhost:44951
+1648106958426	Marionette	INFO	Listening on port 2828
+1648106958531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2262 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin?openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26useRedirectOnSuccess%3D1%26signIn%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 line 711 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648106976905	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[2022-03-24T07:29:37Z ERROR xulstore::persist] removeDocument error: unavailable
+1648107029422	geckodriver	INFO	Listening on 127.0.0.1:48723
+1648107029426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "40241" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648107029875	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:40241/devtools/browser/4980517e-2620-401a-966b-f6ae8e3f5163
+WebDriver BiDi listening on ws://localhost:40241
+1648107030395	Marionette	INFO	Listening on port 2828
+1648107030444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2272 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin%3Fopenid.assoc_handle%3Damzn_launchpad_us%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%26openid.return_to%3Dhttps%3A%2F%2Fwww.amazon.com%2FSarim-Studios-CurrentBitcoin%2Fdp%2FB01N9SS2LI%2Fref%3Dsr_1_3641%26openid.ns.pape%3Dhttp%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0 line 766 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.amazon.com/ap/signin line 807 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648107094062	geckodriver	INFO	Listening on 127.0.0.1:38815
+1648107094066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "47789" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648107094579	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:47789/devtools/browser/ef2071ca-1a3a-4ffe-a980-eea84025a0f7
+WebDriver BiDi listening on ws://localhost:47789
+1648107095400	Marionette	INFO	Listening on port 2828
+1648107095509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2258 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin%3Fopenid.assoc_handle%3Damzn_launchpad_us%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%26openid.return_to%3Dhttps%3A%2F%2Fwww.amazon.com%2FSarim-Studios-CurrentBitcoin%2Fdp%2FB01N9SS2LI%2Fref%3Dsr_1_3641%26openid.ns.pape%3Dhttp%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0 line 766 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.amazon.com/ap/accountfixup?arb=8221857e-c513-4a64-9838-dade499f7bee&openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2FSarim-Studios-CurrentBitcoin%2Fdp%2FB01N9SS2LI%2Fref%3Dsr_1_3641&openid.assoc_handle=amzn_launchpad_us&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&pageId=amzn_launchpad_us&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 line 2217 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641?returnFromLogin=1&openid.assoc_handle=amzn_launchpad_us&openid.claimed_id=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.QIY362MHE2N7HVXFZHZ2LTYAPE&openid.identity=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.QIY362MHE2N7HVXFZHZ2LTYAPE&openid.mode=id_res&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.op_endpoint=https%3A%2F%2Fwww.amazon.com%2Fap%2Fsignin&openid.response_nonce=2022-03-24T07%3A31%3A53Z4940863079010517386&openid.return_to=https%3A%2F%2Fwww.amazon.com%2FSarim-Studios-CurrentBitcoin%2Fdp%2FB01N9SS2LI%2Fref%3Dsr_1_3641%3FreturnFromLogin%3D1&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Cns.pape%2Cpape.auth_policies%2Cpape.auth_time%2Csigned&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.auth_policies=SinglefactorWithMobileVerification&openid.pape.auth_time=2022-03-24T07%3A31%3A49Z& line 2239 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2289 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1648107275333	geckodriver	INFO	Listening on 127.0.0.1:50889
+1648107275842	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "47521" "-no-remote"
+1648107275844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LfCVLAUAAAAALFwwRnnCJ12DalriUGbj8FW_J39&co=aHR0cHM6Ly9hY2NvdW50cy5zcG90aWZ5LmNvbTo0NDM.&hl=en&v=2uoiJ4hP3NUoP9v_eBNfU6CR&size=invisible&cb=790vcrvtyzdw, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: about:blank, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2266 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2301 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1648107427312	geckodriver	INFO	Listening on 127.0.0.1:33125
+1648107427315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "47951" "-no-remote"
+1648107427317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2266 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2289 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1648107489811	geckodriver	INFO	Listening on 127.0.0.1:39855
+1648107489814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "34267" "-no-remote"
+1648107489816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2278 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2289 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2 line 2283 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1648109248359	geckodriver	INFO	Listening on 127.0.0.1:43001
+1648109248868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "52385" "-no-remote"
+1648109248870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648109419531	geckodriver	INFO	Listening on 127.0.0.1:49069
+1648109419541	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "51199" "-no-remote"
+1648109419544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648109446709	geckodriver	INFO	Listening on 127.0.0.1:49165
+1648109446712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "37947" "-no-remote"
+1648109446713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648109540054	geckodriver	INFO	Listening on 127.0.0.1:47737
+1648109540057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "59945" "-no-remote"
+1648109540059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648109664960	geckodriver	INFO	Listening on 127.0.0.1:48917
+1648109664963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "49743" "-no-remote"
+1648109664965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1648109737385	geckodriver	INFO	Listening on 127.0.0.1:58291
+1648109737388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "57803" "-no-remote"
+1648109737390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1648109921344	geckodriver	INFO	Listening on 127.0.0.1:53177
+1648109921347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.mozilla/firefox-trunk/nbi089dt.fashion" "--remote-debugging-port" "54647" "-no-remote"
+1648109921349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648110192223	Marionette	INFO	Stopped listening on port 2828
+1648140761549	geckodriver	INFO	Listening on 127.0.0.1:35039
+1648140762048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "39783" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648140762640	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39783/devtools/browser/5e28ee90-3839-41a0-b12f-66d4c4de9ea4
+WebDriver BiDi listening on ws://localhost:39783
+1648140763600	Marionette	INFO	Listening on port 2828
+1648140763662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2279 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin%3Fopenid.assoc_handle%3Damzn_launchpad_us%26openid.mode%3Dcheckid_setup%26openid.ns%3Dhttp%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%26openid.return_to%3Dhttps%3A%2F%2Fwww.amazon.com%2FSarim-Studios-CurrentBitcoin%2Fdp%2FB01N9SS2LI%2Fref%3Dsr_1_3641%26openid.ns.pape%3Dhttp%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0 line 772 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641?openid.assoc_handle=amzn_launchpad_us&openid.claimed_id=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.IILOWJAPCEBEJUFZFU76SBME7I&openid.identity=https%3A%2F%2Fwww.amazon.com%2Fap%2Fid%2Famzn1.account.IILOWJAPCEBEJUFZFU76SBME7I&openid.mode=id_res&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.op_endpoint=https%3A%2F%2Fwww.amazon.com%2Fap%2Fsignin&openid.response_nonce=2022-03-24T16%3A52%3A58Z6652110383610613121&openid.return_to=https%3A%2F%2Fwww.amazon.com%2FSarim-Studios-CurrentBitcoin%2Fdp%2FB01N9SS2LI%2Fref%3Dsr_1_3641&openid.signed=assoc_handle%2Cclaimed_id%2Cidentity%2Cmode%2Cns%2Cop_endpoint%2Cresponse_nonce%2Creturn_to%2Cns.pape%2Cpape.auth_policies%2Cpape.auth_time%2Csigned&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.auth_policies=http%3A%2F%2Fschemas.openid.net%2Fpape%2Fpolicies%2F2007%2F06%2Fnone&openid.pape.auth_time=2022-03-24T16%3A52%3A58Z& line 2243 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648141103015	geckodriver	INFO	Listening on 127.0.0.1:54583
+1648141103515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "53981" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648141104225	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:53981/devtools/browser/c2ca3320-c96f-4289-96c8-596fa55762b7
+WebDriver BiDi listening on ws://localhost:53981
+1648141105000	Marionette	INFO	Listening on port 2828
+1648141105035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648141136729	geckodriver	INFO	Listening on 127.0.0.1:58481
+1648141136733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "44375" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648141137265	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:44375/devtools/browser/7e7fbd7d-3f65-4eed-bade-c76663d60a65
+WebDriver BiDi listening on ws://localhost:44375
+1648141138097	Marionette	INFO	Listening on port 2828
+1648141138148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=16.4501) Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=17.1566) 1648145919385	geckodriver	INFO	Listening on 127.0.0.1:52053
+1648145919903	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "47521" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648145920702	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:47521/devtools/browser/04e4e219-0ce6-4a34-987e-c4d2ea32ca5f
+WebDriver BiDi listening on ws://localhost:47521
+1648145921683	Marionette	INFO	Listening on port 2828
+1648145921718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648146054508	geckodriver	INFO	Listening on 127.0.0.1:41589
+1648146055016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "43257" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648146055549	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:43257/devtools/browser/aec139fc-ce14-4da3-b2ae-77a3612b3f3d
+WebDriver BiDi listening on ws://localhost:43257
+1648146056274	Marionette	INFO	Listening on port 2828
+1648146056329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648146514162	geckodriver	INFO	Listening on 127.0.0.1:36279
+1648146514663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "43083" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648146515368	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:43083/devtools/browser/ab48b5ab-c61e-4d42-bc29-4b92de807075
+WebDriver BiDi listening on ws://localhost:43083
+1648146515950	Marionette	INFO	Listening on port 2828
+1648146515980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648146541851	geckodriver	INFO	Listening on 127.0.0.1:35335
+1648146541854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "35527" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648146542425	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:35527/devtools/browser/a313bee7-d4d9-42eb-b38e-4feab19658f3
+WebDriver BiDi listening on ws://localhost:35527
+1648146543273	Marionette	INFO	Listening on port 2828
+1648146543367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648146854383	geckodriver	INFO	Listening on 127.0.0.1:45141
+1648146854887	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "54115" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648146855374	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:54115/devtools/browser/fabe2063-8b60-416e-b46f-f1d04641afdb
+WebDriver BiDi listening on ws://localhost:54115
+1648146855893	Marionette	INFO	Listening on port 2828
+1648146855993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648149444474	geckodriver	INFO	Listening on 127.0.0.1:43423
+1648149444979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "32935" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648149445493	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:32935/devtools/browser/1b5a50b5-0a9a-4387-b13f-c0a8b9365eff
+WebDriver BiDi listening on ws://localhost:32935
+1648149445955	Marionette	INFO	Listening on port 2828
+1648149445994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648149633811	geckodriver	INFO	Listening on 127.0.0.1:56299
+1648149633815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "47331" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648149634359	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:47331/devtools/browser/f3a257b0-58e2-44c8-908b-d317849368e2
+WebDriver BiDi listening on ws://localhost:47331
+1648149634852	Marionette	INFO	Listening on port 2828
+1648149634920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=564.82) Exiting due to channel error.
+Exiting due to channel error.
+1648150200046	geckodriver	INFO	Listening on 127.0.0.1:55337
+1648150200049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "51015" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648150200512	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:51015/devtools/browser/c42e5485-e04d-4a1d-aff9-1fb0294d42ba
+WebDriver BiDi listening on ws://localhost:51015
+1648150200974	Marionette	INFO	Listening on port 2828
+1648150201054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=983.483) Exiting due to channel error.
+Exiting due to channel error.
+1648151184634	geckodriver	INFO	Listening on 127.0.0.1:37515
+1648151185137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "58505" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648151185636	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:58505/devtools/browser/4ca0e26c-e51f-4951-be95-1954ce05bfb0
+WebDriver BiDi listening on ws://localhost:58505
+1648151186147	Marionette	INFO	Listening on port 2828
+1648151186242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2305 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648151235651	geckodriver	INFO	Listening on 127.0.0.1:54825
+1648151235659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "39023" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648151236258	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:39023/devtools/browser/09fe4c03-9b02-4aa2-94be-15aa980da4f2
+WebDriver BiDi listening on ws://localhost:39023
+1648151236786	Marionette	INFO	Listening on port 2828
+1648151236865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=155.086) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1648151402770	geckodriver	INFO	Listening on 127.0.0.1:56579
+1648151402773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "40521" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648151403230	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:40521/devtools/browser/6393de4c-7615-46fb-a9c0-000d89e6eb02
+WebDriver BiDi listening on ws://localhost:40521
+1648151403712	Marionette	INFO	Listening on port 2828
+1648151403784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=80.0909) Exiting due to channel error.
+1648151484194	geckodriver	INFO	Listening on 127.0.0.1:59501
+1648151484198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "33713" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648151484712	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:33713/devtools/browser/7260e761-488e-4575-899e-aea7c8e6b33e
+WebDriver BiDi listening on ws://localhost:33713
+1648151485215	Marionette	INFO	Listening on port 2828
+1648151485303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2282 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648151713940	geckodriver	INFO	Listening on 127.0.0.1:59669
+1648151713942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "40235" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648151714396	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:40235/devtools/browser/6f00a3ab-b176-4a3d-962f-1483256b6579
+WebDriver BiDi listening on ws://localhost:40235
+1648151714932	Marionette	INFO	Listening on port 2828
+1648151714951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648151767684	geckodriver	INFO	Listening on 127.0.0.1:43613
+1648151767686	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "55867" "-no-remote"
+1648151767688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648151940476	geckodriver	INFO	Listening on 127.0.0.1:36501
+1648151940478	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "33063" "-no-remote"
+1648151940479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648152316808	geckodriver	INFO	Listening on 127.0.0.1:54215
+1648152316811	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "39999" "-no-remote"
+1648152316812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648152318867	geckodriver	INFO	Listening on 127.0.0.1:38243
+1648152319378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "58247" "-no-remote"
+1648152319380	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2282 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 598: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1648152321071	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[2022-03-24T20:05:21Z ERROR xulstore::persist] removeDocument error: unavailable
+1648152323358	geckodriver	INFO	Listening on 127.0.0.1:54831
+1648152323361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "60665" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648152323820	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:60665/devtools/browser/2319263f-5934-4f71-bf56-d05836bde6e3
+WebDriver BiDi listening on ws://localhost:60665
+1648152324278	Marionette	INFO	Listening on port 2828
+1648152324367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648152364901	geckodriver	INFO	Listening on 127.0.0.1:49749
+1648152364905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "49557" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648152365383	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:49557/devtools/browser/e44b456c-c19c-496f-911a-89293673f92d
+WebDriver BiDi listening on ws://localhost:49557
+1648152365928	Marionette	INFO	Listening on port 2828
+1648152366011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=107.275) Exiting due to channel error.
+Exiting due to channel error.
+1648152474170	geckodriver	INFO	Listening on 127.0.0.1:58165
+1648152474172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "57193" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648152474652	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:57193/devtools/browser/66a180b4-4a6d-48f2-bacf-85a9e5564300
+WebDriver BiDi listening on ws://localhost:57193
+1648152475299	Marionette	INFO	Listening on port 2828
+1648152475389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648158350667	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[2022-03-24T21:45:50Z ERROR xulstore::persist] removeDocument error: unavailable
+1648158851383	geckodriver	INFO	Listening on 127.0.0.1:50399
+1648158851385	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "42617" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648158851846	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:42617/devtools/browser/3fbcfffc-11a2-44a8-85ff-03c417c26a12
+WebDriver BiDi listening on ws://localhost:42617
+1648158852400	Marionette	INFO	Listening on port 2828
+1648158852509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2305 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648159039698	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648159122172	geckodriver	INFO	Listening on 127.0.0.1:40265
+1648159122174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "49123" "-no-remote"
+1648159122175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2282 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648159339513	geckodriver	INFO	Listening on 127.0.0.1:39809
+1648159339515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "34803" "-no-remote"
+1648159339517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648159442049	geckodriver	INFO	Listening on 127.0.0.1:42483
+1648159442051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "44173" "-no-remote"
+1648159442052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1648161185524	geckodriver	INFO	Listening on 127.0.0.1:59823
+1648161185527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "35821" "-no-remote"
+1648161185532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648161461566	geckodriver	INFO	Listening on 127.0.0.1:46205
+1648161461571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "53727" "-no-remote"
+1648161461574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2 line 2287 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Pandora-Media/dp/B07JBQZCRB/ref=sr_1_2?keywords=pandora&qid=1648105356&s=digital-skills&sprefix=pand%2Calexa-skills%2C197&sr=1-2 line 2299 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648161638094	Marionette	INFO	Stopped listening on port 2828
+1648161638157	geckodriver	INFO	Listening on 127.0.0.1:51929
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[2022-03-24T22:40:38Z ERROR xulstore::persist] removeDocument error: unavailable
+1648161638660	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "45805" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648161639133	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:45805/devtools/browser/b122f719-90b0-4d78-bf0b-8e3d6644a0f9
+WebDriver BiDi listening on ws://localhost:45805
+1648161639755	Marionette	INFO	Listening on port 2828
+1648161639766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2282 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2305 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=22.7582) Exiting due to channel error.
+1648161677234	geckodriver	INFO	Listening on 127.0.0.1:36035
+1648161677237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "50113" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648161677775	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:50113/devtools/browser/d4ada924-5a03-4ee6-8b9d-9fc2ef6c6ff9
+WebDriver BiDi listening on ws://localhost:50113
+1648161678537	Marionette	INFO	Listening on port 2828
+1648161678551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648161711947	geckodriver	INFO	Listening on 127.0.0.1:60643
+1648161711949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "48645" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648161712447	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:48645/devtools/browser/1af77422-61b8-46d1-a9a4-ff17ea598b05
+WebDriver BiDi listening on ws://localhost:48645
+1648161713315	Marionette	INFO	Listening on port 2828
+1648161713361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2305 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=26.5918) Exiting due to channel error.
+1648162581633	geckodriver	INFO	Listening on 127.0.0.1:36711
+1648162581641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "35739" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648162582165	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:35739/devtools/browser/82fbb0fb-8368-4426-990a-fb74650616da
+WebDriver BiDi listening on ws://localhost:35739
+1648162582972	Marionette	INFO	Listening on port 2828
+1648162583053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648162617754	geckodriver	INFO	Listening on 127.0.0.1:37629
+1648162617757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "52895" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648162618277	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:52895/devtools/browser/fe977dd0-7d54-4751-b7b2-2e260b7dc74b
+WebDriver BiDi listening on ws://localhost:52895
+1648162619058	Marionette	INFO	Listening on port 2828
+1648162619070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648162635398	geckodriver	INFO	Listening on 127.0.0.1:42835
+1648162635401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "52005" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648162635902	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:52005/devtools/browser/c2e33a4f-9466-410e-8e5e-cea52a91000c
+WebDriver BiDi listening on ws://localhost:52005
+1648162636739	Marionette	INFO	Listening on port 2828
+1648162636834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648162751874	geckodriver	INFO	Listening on 127.0.0.1:33121
+1648162751885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "36101" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648162752350	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:36101/devtools/browser/451c50df-eaeb-4973-a221-6773d8d32db1
+WebDriver BiDi listening on ws://localhost:36101
+1648162753042	Marionette	INFO	Listening on port 2828
+1648162753098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2282 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648163352185	geckodriver	INFO	Listening on 127.0.0.1:46083
+1648163352190	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "47629" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648163352702	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:47629/devtools/browser/ebfdb73d-47db-4e6d-a145-980cf97fd690
+WebDriver BiDi listening on ws://localhost:47629
+1648163353448	Marionette	INFO	Listening on port 2828
+1648163353505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648163405683	geckodriver	INFO	Listening on 127.0.0.1:35407
+1648163405686	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "56559" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648163406203	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:56559/devtools/browser/0d9c20fa-8790-43d3-8549-2531a8495651
+WebDriver BiDi listening on ws://localhost:56559
+1648163406898	Marionette	INFO	Listening on port 2828
+1648163406999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1648163467692	geckodriver	INFO	Listening on 127.0.0.1:55787
+1648163467695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "45855" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648163468202	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:45855/devtools/browser/dd127001-f68c-476c-9d36-1841acdf7f9d
+WebDriver BiDi listening on ws://localhost:45855
+1648163468840	Marionette	INFO	Listening on port 2828
+1648163468907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2282 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648163543730	geckodriver	INFO	Listening on 127.0.0.1:37219
+1648163543734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "51905" "-no-remote"
+1648163543735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648163711328	geckodriver	INFO	Listening on 127.0.0.1:60481
+1648163711333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "57003" "-no-remote"
+1648163711337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648164399423	geckodriver	INFO	Listening on 127.0.0.1:37795
+1648164399425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "43829" "-no-remote"
+1648164399426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=801921880582199800, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648164477676	geckodriver	INFO	Listening on 127.0.0.1:41029
+1648164477678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "45361" "-no-remote"
+1648164477679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=197869135269281630, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2440 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648164568782	geckodriver	INFO	Listening on 127.0.0.1:41569
+1648164568789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "41517" "-no-remote"
+1648164568790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=674541538597234600, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2440 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648164645494	geckodriver	INFO	Listening on 127.0.0.1:53793
+1648164645499	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "43497" "-no-remote"
+1648164645500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=798375693175853000, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648164684636	geckodriver	INFO	Listening on 127.0.0.1:47021
+1648164684640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "47879" "-no-remote"
+1648164684641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=713809510315405700, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648169429935	geckodriver	INFO	Listening on 127.0.0.1:40637
+1648169430447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "43139" "-no-remote"
+1648169430454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=717317937720599200, line 1: TypeError: can't redefine non-configurable property "webdriver"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648169449681	geckodriver	INFO	Listening on 127.0.0.1:60353
+1648169450184	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "58675" "-no-remote"
+1648169450185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://remote/content/marionette/driver.js, line 2125: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1648169462153	Marionette	INFO	Stopped listening on port 2828
+[2022-03-25T00:51:02Z ERROR xulstore::persist] removeDocument error: unavailable
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1648169524211	geckodriver	INFO	Listening on 127.0.0.1:34447
+1648169524213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "56627" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648169524691	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:56627/devtools/browser/8764bc0b-d144-4755-9d82-bca5bf4929e9
+WebDriver BiDi listening on ws://localhost:56627
+1648169525193	Marionette	INFO	Listening on port 2828
+1648169525222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648169590324	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[2022-03-25T00:53:10Z ERROR xulstore::persist] removeDocument error: unavailable
+1648169594260	geckodriver	INFO	Listening on 127.0.0.1:47107
+1648169594262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "51295" "-no-remote"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648169594721	Marionette	INFO	Marionette enabled
+DevTools listening on ws://localhost:51295/devtools/browser/b8434aa5-9cc8-41b8-b3af-82eaad4a3bc1
+WebDriver BiDi listening on ws://localhost:51295
+1648169595250	Marionette	INFO	Listening on port 2828
+1648169595273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2 line 2293 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648169824831	geckodriver	INFO	Listening on 127.0.0.1:46127
+1648169824833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "48293" "-no-remote"
+1648169824834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_2?keywords=spotify&qid=1648105200&s=digital-skills&sprefix=spo%2Calexa-skills%2C128&sr=1-2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648170046502	geckodriver	INFO	Listening on 127.0.0.1:53509
+1648170046505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "32843" "-no-remote"
+1648170046506	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=91903863323990480, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648170115778	geckodriver	INFO	Listening on 127.0.0.1:41779
+1648170115780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "35281" "-no-remote"
+1648170115781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=57743063927784280, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648170216787	geckodriver	INFO	Listening on 127.0.0.1:47529
+1648170216790	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "52629" "-no-remote"
+1648170216791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=553447998192274400, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648170265943	geckodriver	INFO	Listening on 127.0.0.1:37129
+1648170265946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "47787" "-no-remote"
+1648170265947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=277005249862343870, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648173477264	geckodriver	INFO	Listening on 127.0.0.1:50415
+1648173477266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "57787" "-no-remote"
+1648173477267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://s.amazon-adsystem.com/iu3?d=generic&ex-fargs=%3Fid%3D899f9d5a-aa9a-ac57-0071-071f359074a7%26type%3D55%26m%3D1&ex-fch=416613&ex-src=https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited/&ex-hargs=v%3D1.0%3Bc%3D2702107500201%3Bp%3D899F9D5A-AA9A-AC57-0071-071F359074A7&cb=901661688895766100, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://www.amazon.com/s?k=spotify&i=alexa-skills&crid=GK680ETPKR72&sprefix=sp%2Calexa-skills%2C190&ref=nb_sb_ss_ts-doa-p_1_2 line 6867 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_1?crid=GK680ETPKR72&keywords=spotify&qid=1648173626&s=digital-skills&sprefix=sp%2Calexa-skills%2C190&sr=1-1 line 2264 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648173878286	geckodriver	INFO	Listening on 127.0.0.1:43939
+1648173878289	mozrunner::runner	INFO	Running command: "/usr/bin/firefox-trunk" "--marionette" "-profile" "/home/c2/.cache/mozilla/firefox-trunk/zptiqr5g.echo-profile" "--remote-debugging-port" "43765" "-no-remote"
+1648173878290	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.amazon.com/Spotify/dp/B07FK56GVY/ref=sr_1_1?crid=GK680ETPKR72&keywords=spotify&qid=1648173626&s=digital-skills&sprefix=sp%2Calexa-skills%2C190&sr=1-1, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://www.amazon.com/s?k=spotify&i=alexa-skills&crid=GK680ETPKR72&sprefix=sp%2Calexa-skills%2C190&ref=nb_sb_ss_ts-doa-p_1_2, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://d1lxz4vuik53pc.cloudfront.net/ii/1644322708888/inner.html, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript error: https://d1lxz4vuik53pc.cloudfront.net/ii/1644322708888/inner.html, line 1: TypeError: can't redefine non-configurable property "webdriver"
+JavaScript warning: https://www.amazon.com/Sarim-Studios-CurrentBitcoin/dp/B01N9SS2LI/ref=sr_1_3641 line 2282 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/music?pd_rd_w=7kkyo&pf_rd_p=ec2a9563-7d45-4805-b031-00251924a5c5&pf_rd_r=SKXSB0F10SFNW61JS14C&pd_rd_r=a0c81304-869e-4ed0-a2e6-5818fc396cee&pd_rd_wg=qPrxk&qid=1648162501 line 2428 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1648195517220	Marionette	INFO	Stopped listening on port 2828
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+[2022-03-25T08:05:17Z ERROR xulstore::persist] removeDocument error: unavailable
